@@ -1,11 +1,11 @@
-{% if site.posts.size > 0 %}
+{% if site.projects.size > 0 %}
   <ul>
-    {% for post in site.posts %}
-      <li class="post-list-item">
+    {% for project in site.projects %}
+      <li class="project-list-item">
         <span class="home-date">
-          {{ post.date | date: site.theme_config.date_format }}»
+          {{ project.date | date: site.theme_config.date_format }}»
         </span>
-        <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
+        <a href="{{ project.url | relative_url }}">{{ project.title }}</a>
       </li>
     {% endfor %}
   </ul>
