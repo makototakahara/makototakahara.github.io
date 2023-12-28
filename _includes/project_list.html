@@ -1,6 +1,6 @@
-{% if site.projects.size > 0 %}
+{% if site.project-post.size > 0 %}
   <ul>
-    {% for post in site.projects %}
+    {% for post in site.project-post %}
       <li class="project-list-item">
         <span class="home-date">
           {{ post.date | date: site.theme_config.date_format }}»
