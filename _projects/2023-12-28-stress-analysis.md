@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: project_post
 author: Makoto Takahara
 tags: [projects]
 ---
