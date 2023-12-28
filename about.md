@@ -3,6 +3,4 @@ layout: post
 title: About
 ---
 
-This is an example page!
-
-Actually, it has the same layout of a post...
+My name is Makoto Takahara. I grew up in four countries (Japan, U.S., Hong Kong, Canada). I study Statistics at the University of Toronto.
