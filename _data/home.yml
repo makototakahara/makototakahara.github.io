@@ -13,6 +13,10 @@ project_entries:
     url: stress-analysis
     desc: Linear Regression, Model Selection, R
 
+  - title: Predicing Election Results
+    url: election-prediction
+    desc: Multilevel Regression with Poststratification, Data Cleaning, Data Visualization , R
+
 footer_entries:
   - title: LinkedIn
     url: https://www.linkedin.com/in/makoto-takahara/
