@@ -1,7 +1,7 @@
 ---
 layout: post
 author: Makoto Takahara
-tags: [about me]
+tags: [project]
 include_in_list: false
 ---
 
