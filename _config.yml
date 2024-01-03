@@ -3,11 +3,13 @@ author: Makoto Takahara
 url: https://makototakahara.github.io/ # root address of the site
 description: > #comment
   Hello and welcome to my website! <br/>
-  I am Makoto Takahara, a statistics student at the University of Toronto.<br/>
+  I am Makoto Takahara, a statistics student at the University of Toronto. <br/>
   I was born in Japan but bounced around Japan, the United States, Hong Kong, and Canada.<br/>
+  <br/>
   One of my personal passions is baseball. <br/>
   In fact, my interest in statistics was sparked by baseball, where data is used to isolate and evaluate player performance.<br/>
   My journey in statistics has taken me into new domains such as societal well-being and finance.<br/>
+  <br/>
   This website is intended, in part, as a portfolio showcasing my projects, capturing the essence of my statistical adventures across various exciting fields!<br/>
 
 permalink: /:slug
