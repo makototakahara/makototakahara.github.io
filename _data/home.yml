@@ -15,7 +15,7 @@ project_entries:
 
   - title: Predicing Election Results
     url: election-prediction
-    desc: Multilevel Regression with Poststratification, Data Cleaning, Data Visualization , R
+    desc: Multilevel Regression with Poststratification, Data Cleaning, Data Visualization, R
 
 footer_entries:
   - title: LinkedIn
