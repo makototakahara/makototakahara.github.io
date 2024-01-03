@@ -10,7 +10,7 @@ navbar_entries:
 
 project_entries:
   - title: Effect of Lifestyle Factors on Stress
-    url: stress-analysis
+    url: my-blog
     desc: Examined the effect of various lifestyle factors and gender on subjective stress levels. 
 
 footer_entries:
