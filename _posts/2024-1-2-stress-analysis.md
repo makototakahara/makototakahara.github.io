@@ -48,8 +48,11 @@ Table 1: Tools to Detect Problematic Points and Their Cutoff Values
 
 |Problematic Point Type| Tool          | Cutoff  |
 |:-:|:-----:|:----------:|
-|Leverage points       | Leverage      | $\frac{2(p+1)}{n}$, where $p$ is the number of predictors in our model and $n=6108$ is the total number of observations in our dataset.|
-|Outliers              | Absolute value of standardized residuals of each observation     | $4$ |
-|Observations influential on all fitted values|Cook’s distance      |Median of the F-distribution $F(p+1, n-p-1)$. |
-|Observations influential on their own fitted values|Absolute value of “difference in fitted values” (DFFITS)| $2\sqrt{\frac{2(p+1)}{n}}$.|
-|Observations influential on at least one estimated coefficient| Absolute value of “difference in beta” (DFBETAS)| $\frac{2}{\sqrt{n}}$|
+|Leverage points       | Leverage      |$> \frac{2(p+1)}{n}$, where $p$ is the number of predictors in our model and $n=6108$ is the total number of observations in our dataset.|
+|Outliers              | Standardized residuals of each observation     | Not in interval $[-4, 4]$ |
+|Observations influential on all fitted values|Cook’s distance      |$>$ Median of the F-distribution $F(p+1, n-p-1)$. |
+|Observations influential on their own fitted values|Absolute value of “difference in fitted values” (DFFITS)|$> 2\sqrt{\frac{2(p+1)}{n}}$.|
+|Observations influential on at least one estimated coefficient| Absolute value of “difference in beta” (DFBETAS)| $> \frac{2}{\sqrt{n}}$|
+
+### Model Selection
+After addressing assumptions and handling problematic observations, our model selection is based on the Akaike Information Criterion (AIC) rather than the Bayesian Information Criterion (BIC). AIC strikes a balance between model fit and complexity, proving suitable for scenarios where uncertainty surrounds the true underlying model. We opt for AIC stepwise selection over forward or backward elimination due to its comprehensive approach. This method considers both the addition and removal of variables at each step, capturing complex relationships in the dataset. It iteratively adds or removes predictors based on their impact on the AIC score, ultimately selecting the model with the lowest AIC as the final model.
