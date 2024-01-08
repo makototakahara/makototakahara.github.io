@@ -98,9 +98,11 @@ for Sleep revealed left-skewness, suggesting violated linearity assumption (**Fi
 In the multiple linear regression, we first assessed Conditional Mean Response and Conditional Mean Predictor conditions before 4 assumptions. Presented in **Figure 2**, "Daily stress vs Fitted" scatter plot was checked for a random diagonal scatter pattern, but interpretation was challenging due to Daily Stress being represented as integers on a Likert Scale (1 to 5). Next, we examined residual plots in pairwise scatterplots for all predictors. Despite lacking curvatures, interpretation was challenging due to the predominantly integer nature of the predictors (excluding gender, a categorical variable), and noise in the plots complicated the analysis. Hence, acknowledging uncertainty about meeting additional conditions, we refrained from interpreting residual plots.
 
 **Figure 2.1: "Daily stress vs Fitted" scatter plot**
+
 ![Daily Stress vs Fitted](/images/Screen-Shot-2024-01-08-at-17.32.38.png)
 
 **Figure 2.2: Pairwise scatterplots of predictors of initial model**
+
 ![Scatterplots](/images/Screen-Shot-2024-01-08-at-17.32.46.png)
 
 We assessed four assumptions (uncorrelated error, linearity, normality, constant variance) using residual plots for all predictors except gender (a categorical variable), which was evaluated using box plots (**Figure 3**). Due to the non-interpretable nature of the residual plots, drawing solid conclusions on the four assumptions is challenging. Regarding normality, despite a slight deviation from the diagonal line, considering the integer nature of both the response variable and predictors supports the conclusion that the normality assumption is satisfied. Following our method (written in the previous section), other assumptions also seem to be satisfied based on the assumption plots.
