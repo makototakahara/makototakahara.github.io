@@ -46,7 +46,7 @@ We employ the variance inflation factor (VIF) to assess multicollinearity by cal
 
 Table 1: Tools to Detect Problematic Points and Their Cutoff Values
 
-|Problematic Point Type| Tool          | Cutoff  |
+|Problematic Point Type| Measure|Cutoff|
 |:-:|:-----:|:----------:|
 |Leverage points       | Leverage      |$> \frac{2(p+1)}{n}$, where $p$ is the number of predictors in our model and $n=6108$ is the total number of observations in our dataset.|
 |Outliers              | Standardized residuals of each observation     | Not in interval $[-4, 4]$ |
