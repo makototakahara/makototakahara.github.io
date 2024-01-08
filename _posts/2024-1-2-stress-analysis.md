@@ -47,9 +47,9 @@ We employ the variance inflation factor (VIF) to assess multicollinearity by cal
 **Table 1: Tools to Detect Problematic Points and Their Cutoff Values** 
 |Problematic Point Type| Measure|Cutoff|
 |:-:|:-----:|:----------:|
-|Leverage points| Leverage      |$> \frac{2(p+1)}{n}$, where $p$ is the number of predictors in our model and $n=6108$ is the total number of observations in our dataset.|
-|Outliers| Standardized residuals of each observation     | Not in interval $[-4, 4]$ |
-|Observations influential on all fitted values|Cook’s distance      |$>$ Median of the F-distribution $F(p+1, n-p-1)$. |
+|Leverage points|Leverage|$> \frac{2(p+1)}{n}$, where $p$ is the number of predictors in our model and $n=6108$ is the total number of observations in our dataset.|
+|Outliers| Standardized residuals of each observation| Not in interval $[-4, 4]$|
+|Observations influential on all fitted values|Cook’s distance|$>$ Median of the F-distribution $F(p+1, n-p-1)$. |
 |Observations influential on their own fitted values|Absolute value of “difference in fitted values” (DFFITS)|$> 2\sqrt{\frac{2(p+1)}{n}}$.|
 |Observations influential on at least one estimated coefficient| Absolute value of “difference in beta” (DFBETAS)| $> \frac{2}{\sqrt{n}}$|
 
