@@ -44,8 +44,7 @@ To assess assumptions in our multiple linear regression analysis, we employ a si
 ### Diagnostics
 We employ the variance inflation factor (VIF) to assess multicollinearity by calculating VIF values for each predictor. A VIF value below 5 indicates no significant multicollinearity in our model. Should any predictor exhibit a VIF value exceeding 5, we address multicollinearity by removing the predictor with the highest VIF and constructing a reduced model. Subsequently, we reassess the assumptions and conditions for the refined model. To identify potential outliers or influential points, we calculate tool values for each observation, acknowledging values surpassing a predetermined cutoff as limitations in our analysis rather than removing the corresponding observations. This approach aligns with our objective of drawing generalizable conclusions from the model while considering ethical considerations.
 
-Table 1: Tools to Detect Problematic Points and Their Cutoff Values
-
+**Table 1: Tools to Detect Problematic Points and Their Cutoff Values** 
 |Problematic Point Type| Measure|Cutoff|
 |:-:|:-----:|:----------:|
 |Leverage points       | Leverage      |$> \frac{2(p+1)}{n}$, where $p$ is the number of predictors in our model and $n=6108$ is the total number of observations in our dataset.|
