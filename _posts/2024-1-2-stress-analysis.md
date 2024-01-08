@@ -84,3 +84,6 @@ Daily Steps—were selected for their conceptual relevance to stress in the lite
 some correlation. Variables excluded were often subjective or lacked literature evidence regarding their
 association with daily stress. Some were omitted due to vague Likert scale measurements offering only
 two options.
+
+### Model Selection Process
+**Figure 1: Histogram of Sleep**
