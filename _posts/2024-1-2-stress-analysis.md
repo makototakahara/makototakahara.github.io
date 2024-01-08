@@ -135,3 +135,12 @@ All coefficients demonstrated p-values below 0.05, signifying a significant line
 
 ### Limitations
 Limitations include potential challenges in satisfying 2 conditions due to the integer nature of variables, introducing residual plot uncertainty. Despite this limitation, we proceeded with the investigation, acknowledging the noise level. Box-Cox transformation resulted in squareSleep replacing Sleep in the model, potentially impacting interpretability. While multicollinearity is a potential limitation, VIF values below 5 mitigate severe impacts on model stability and interpretability. Leverage and influential observations pose another limitation, with the potential to disproportionately influence model parameters. Despite this, ethical concerns led us to retain these observations, avoiding potential bias or incomplete understanding of underlying relationships in the data.
+
+## References
+1. American Psychological Association. (2012). 2010 gender and stress. American Psychological Association. [Link](https://www.apa.org/news/press/releases/stress/2010/gender-stress)
+
+2. Cacioppo, J. T., & Hawkley, L. C. (2003). Social isolation and health, with an emphasis on underlying mechanisms. *Perspectives in Biology and Medicine, 46*(3x). [DOI](https://doi.org/10.1353/pbm.2003.0063)
+
+3. Jin, P. (1992). Efficacy of tai chi, brisk walking, meditation, and reading in reducing mental and emotional stress. *Journal of Psychosomatic Research, 36*(4), 361–370. [DOI](https://doi.org/10.1016/0022-3999(92)90072-a)
+
+4. Nollet, M., Wisden, W., & Franks, N. P. (2020). Sleep deprivation and stress: A reciprocal relationship. *Interface Focus, 10*(3), 20190092. [DOI](https://doi.org/10.1098/rsfs.2019.0092)
