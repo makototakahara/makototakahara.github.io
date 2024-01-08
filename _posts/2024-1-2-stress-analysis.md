@@ -56,3 +56,17 @@ We employ the variance inflation factor (VIF) to assess multicollinearity by cal
 
 ### Model Selection
 After addressing assumptions and handling problematic observations, our model selection is based on the Akaike Information Criterion (AIC) rather than the Bayesian Information Criterion (BIC). AIC strikes a balance between model fit and complexity, proving suitable for scenarios where uncertainty surrounds the true underlying model. We opt for AIC stepwise selection over forward or backward elimination due to its comprehensive approach. This method considers both the addition and removal of variables at each step, capturing complex relationships in the dataset. It iteratively adds or removes predictors based on their impact on the AIC score, ultimately selecting the model with the lowest AIC as the final model.
+
+## Results
+### Data Summary and Description
+
+**Table 2: Data Summary**
+||Mean|Std. Deviation|Skewness|
+|:-:|:-:|:-:|:-:|
+|Sleep|7.11|1.17|-0.29|
+|Meditation|6.09|3.01|-0.13|
+|Social Network|6.17|3.06|-0.01|
+|Time for Passion|3.32|2.71|0.84|
+|Daily Shouting|2.94 |2.67|1.11|
+|Daily Steps|5.59|2.91|0.07|
+|Daily Stress|2.81|1.33|-0.07|
