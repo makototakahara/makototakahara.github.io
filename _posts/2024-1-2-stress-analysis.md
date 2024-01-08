@@ -60,7 +60,7 @@ After addressing assumptions and handling problematic observations, our model se
 ## Results
 ### Data Summary and Description
 
-**Table 2: Data Summary**
+**Table 2.1: Data Summary of Numerical Variables**
 
 ||Mean|Std. Deviation|Skewness|
 |:-:|:-:|:-:|:-:|
@@ -72,7 +72,7 @@ After addressing assumptions and handling problematic observations, our model se
 |Daily Steps|5.59|2.91|0.07|
 |Daily Stress|2.81|1.33|-0.07|
 
-  
+  **Table 2.2: Data Summary of Categorical Variable**
 
 ||Male|Female|
 |:-:|:-:|:-:|
