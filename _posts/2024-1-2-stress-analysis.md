@@ -25,11 +25,12 @@ $$
 Daily\ Stress = \beta_0 + \beta_1 Social\ Network + \beta_2 Daily\ Steps + \beta_3 Daily\ Sleeping + \beta_4 Sleep + \beta_5 Screen\ Time\ for\ Passion + \beta_6 Meditation + \beta_7 Gender + \varepsilon
 $$
 
-Daily Stress: Likert scale ranging from 1 to 5 (weak to strong)
-Social Network: Number of people individuals interact with in a day.
-Daily Steps: Number of steps (in thousands) individuals typically walk every day.
-Daily Shouting: Number of times individuals shout at somebody in a week.
-Sleep: Hours individuals typically sleep.
-Time for Passion: Hours individuals spend every day doing what they are passionate about.
-Meditation: Number of times individuals think about themselves in a week.
-Gender: Categorical variable (1 indicating male and 0 indicating female).
+**Daily Stress:** Likert scale ranging from 1 to 5 (weak to strong)  
+**Social Network:** Number of people individuals interact with in a day.  
+**Daily Steps:** Number of steps (in thousands) individuals typically walk every day.  
+**Daily Shouting:** Number of times individuals shout at somebody in a week.  
+**Sleep:** Hours individuals typically sleep.  
+**Time for Passion:** Hours individuals spend every day doing what they are passionate about.  
+**Meditation:** Number of times individuals think about themselves in a week.  
+**Gender:** Categorical variable (1 indicating male and 0 indicating female).
+
