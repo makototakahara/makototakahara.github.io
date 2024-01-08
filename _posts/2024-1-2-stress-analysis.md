@@ -88,3 +88,5 @@ two options.
 
 ### Model Selection Process
 **Figure 1: Histogram of Sleep**
+
+![Histogram of Sleep](Screen Shot 2024-01-08 at 17.10.58.png)
