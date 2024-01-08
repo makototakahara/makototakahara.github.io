@@ -73,6 +73,7 @@ After addressing assumptions and handling problematic observations, our model se
 |Daily Stress|2.81|1.33|-0.07|
 
 \
+
 ||Male|Female|
 |:-:|:-:|:-:|
 |Proportion of Gender|42%|58%|
