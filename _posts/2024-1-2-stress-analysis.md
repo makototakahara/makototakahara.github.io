@@ -70,3 +70,15 @@ After addressing assumptions and handling problematic observations, our model se
 |Daily Shouting|2.94 |2.67|1.11|
 |Daily Steps|5.59|2.91|0.07|
 |Daily Stress|2.81|1.33|-0.07|
+
+||Male|Female|
+|:-:|:-:|:-:|
+|Proportion of Gender|42%|58%|
+
+Our initial model comprises 7 predictors (Gender + 6 numerical lifestyle factors), with Daily Stress as the
+response variable, selected from a dataset of 23 variables based on literature and research focus. The
+chosen predictors—Sleep, Meditation, Social Network, Time for Passion, Daily Shouting, Gender, and
+Daily Steps—were selected for their conceptual relevance to stress in the literature and context, showing
+some correlation. Variables excluded were often subjective or lacked literature evidence regarding their
+association with daily stress. Some were omitted due to vague Likert scale measurements offering only
+two options.
