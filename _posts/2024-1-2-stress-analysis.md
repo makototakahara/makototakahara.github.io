@@ -21,7 +21,9 @@ The existing literature on stress factors offers valuable insights, with Jin's e
 Our initial linear regression model takes daily stress as the response variable and a number of lifestyle
 factors and gender as predictors, presented below:
 
+\\begin{sloppypar}
 $$ Daily\ Stress = \beta_0 + \beta_1 Social\ Network + \beta_2 Daily\ Steps + \beta_3 Daily\ Sleeping + \beta_4 Sleep + \beta_5 Time\ for\ Passion + \beta_6 Meditation + \beta_7 Gender + \varepsilon$$
+\\end{sloppypar}
 
 **Daily Stress:** Likert scale ranging from 1 to 5 (weak to strong)  
 **Social Network:** Number of people individuals interact with in a day.  
