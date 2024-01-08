@@ -107,3 +107,10 @@ In the multiple linear regression, we first assessed Conditional Mean Response a
 
 We assessed four assumptions (uncorrelated error, linearity, normality, constant variance) using residual plots for all predictors except gender (a categorical variable), which was evaluated using box plots (**Figure 3**). Due to the non-interpretable nature of the residual plots, drawing solid conclusions on the four assumptions is challenging. Regarding normality, despite a slight deviation from the diagonal line, considering the integer nature of both the response variable and predictors supports the conclusion that the normality assumption is satisfied. Following our method (written in the previous section), other assumptions also seem to be satisfied based on the assumption plots.
 
+**Figure 3.1: Residual plots for initial model**
+
+![Scatterplots](/images/Screen-Shot-2024-01-08-at-17.29.59.png)
+![Scatterplots](/images/Screen-Shot-2024-01-08-at-17.30.06.png)
+
+**Figure 3.2: QQ-plot for initial model**
+![Scatterplots](/images/Screen-Shot-2024-01-08-at-17.30.14.png)
