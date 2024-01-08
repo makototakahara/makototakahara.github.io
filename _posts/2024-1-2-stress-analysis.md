@@ -131,7 +131,13 @@ By AIC stepwise selection, the reduced model from the partial F test, featuring 
 
 ## Discussion
 ### Conclusion 
-Initially exploring the impact of lifestyle factors and gender on the subjective stress levels of individuals aged 21 to 35, it culminated in a final model with 5 predictors and corresponding coefficients for our response variable.
+Initially exploring the impact of lifestyle factors and gender on the subjective stress levels of individuals aged 21 to 35, it culminated in a final model with 5 predictors and corresponding coefficients for our response variable. **Figure 4** shows the R output for this model.
+
+**Figure 4: R Summary of Final Model**
+
+![Scatterplots](/images/Screen-Shot-2024-01-08-at-18.28.13.png)
+
+The final fitted model is shown below.
 
 $$
 \begin{align*}
