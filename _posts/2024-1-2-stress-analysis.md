@@ -43,5 +43,5 @@ Table 1: Tools to Detect Problematic Points and Their Cutoff Values
 |:---------:|:-----------:|:---------------------:|
 |Leverage points       | Leverage      | $\frac{2(p+1)}{n}$, where $p$ is the number of predictors in our model and $n=6108$ is the total number of observations in our dataset.|
 |Outliers              | Absolute value of standardized residuals of each observation     | $4$ |
-|Observations influential on all fitted values|Cook’s distance      |Median of the F-distribution $F(p+1, n-p-1)$ where $p$ is number of predictors in our model and $n=6108$ is total number of observations in our dataset.  |
-|Observations influential on their own fitted values|Absolute value of “difference in fitted values” (DFFITS)| $2\sqrt{\frac{2(p+1)}{n}}$ where $p$ is number of predictors in our model and $n=6108$ is total number of observations in our dataset.|
+|Observations influential on all fitted values|Cook’s distance      |Median of the F-distribution $F(p+1, n-p-1)$. |
+|Observations influential on their own fitted values|Absolute value of “difference in fitted values” (DFFITS)| $2\sqrt{\frac{2(p+1)}{n}}$.|
