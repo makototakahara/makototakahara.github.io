@@ -52,3 +52,4 @@ Table 1: Tools to Detect Problematic Points and Their Cutoff Values
 |Outliers              | Absolute value of standardized residuals of each observation     | $4$ |
 |Observations influential on all fitted values|Cook’s distance      |Median of the F-distribution $F(p+1, n-p-1)$. |
 |Observations influential on their own fitted values|Absolute value of “difference in fitted values” (DFFITS)| $2\sqrt{\frac{2(p+1)}{n}}$.|
+|Observations influential on at least one estimated coefficient| Absolute value of “difference in beta” (DFBETAS)| $\frac{2}{\sqrt{n}}$|
