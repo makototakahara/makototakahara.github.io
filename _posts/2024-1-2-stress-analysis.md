@@ -61,6 +61,7 @@ After addressing assumptions and handling problematic observations, our model se
 ### Data Summary and Description
 
 **Table 2: Data Summary**
+
 ||Mean|Std. Deviation|Skewness|
 |:-:|:-:|:-:|:-:|
 |Sleep|7.11|1.17|-0.29|
