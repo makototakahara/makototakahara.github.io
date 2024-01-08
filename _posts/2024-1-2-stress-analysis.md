@@ -10,7 +10,7 @@ For this project, I worked in a group to investigate the relationship between su
 
 We used a multiple linear regression to model this relationship with data from Kaggle. This project places an emphasis on testing the assumptions of linear regression, correcting and mitigating violated assumptions, model selection, and analysis of variance (ANOVA). 
 
-# Project Contents
+# Project Content
 ## Introduction
 This study aims to investigate the association between subjective stress levels and various factors among individuals aged 21 to 35. Our research question focuses on understanding how sleep habits, social interaction levels, meditation, passions, and gender (categorical) collectively influence the subjective stress experienced by this age group. Employing a multiple linear regression model, we examine lifestyle factors as independent variables and gender as an independent categorical variable, considering literature highlighting its impact on subjective stress (APA, 2012). The linear model evaluates the significance of predictors on stress levels, with positive coefficients for numerical variables indicating increased stress with higher values, and vice versa for negative coefficients. For gender, a positive coefficient implies higher stress for males compared to females, and vice versa for negative coefficients. Statistically significant relationships, determined by p-values below 0.05, are identified, providing a comprehensive and nuanced exploration of how lifestyle factors and gender influence stress levels in individuals aged 21-35.
 
@@ -21,9 +21,9 @@ The existing literature on stress factors offers valuable insights, with Jin's e
 Our initial linear regression model takes daily stress as the response variable and a number of lifestyle
 factors and gender as predictors, presented below:
 
-\[
-Daily Stress = \beta_0 + \beta_1 Social\ Network + \beta_2 Daily\ Steps + \beta_3 Daily\ Sleeping + \beta_4 Sleep + \beta_5 Screen\ Time\ for\ Passion + \beta_6 Meditation + \beta_7 Gender + \varepsilon
-\]
+$$
+Daily\ Stress = \beta_0 + \beta_1 Social\ Network + \beta_2 Daily\ Steps + \beta_3 Daily\ Sleeping + \beta_4 Sleep + \beta_5 Screen\ Time\ for\ Passion + \beta_6 Meditation + \beta_7 Gender + \varepsilon
+$$
 
 Daily Stress: Likert scale ranging from 1 to 5 (weak to strong)
 Social Network: Number of people individuals interact with in a day.
