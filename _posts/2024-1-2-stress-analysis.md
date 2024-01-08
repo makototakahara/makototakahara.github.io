@@ -43,6 +43,6 @@ Table 1: Tools to Detect Problematic Points and Their Cutoff Values
 
 |Problematic Point Type| Tool          | Cutoff  |
 | ---------------------|:-------------:| --------|
-|Leverage points       | Leverage      | $$/frac{2(p+1)}{n}$$, where $$p$$ is the number of predictors in our model and$$n=6108$$ is the total number of observations in our dataset.|
+|Leverage points       | Leverage      | $$\frac{2(p+1)}{n}$$, where $$p$$ is the number of predictors in our model and$$n=6108$$ is the total number of observations in our dataset.|
 |Outliers              | Absolute Value of Standardized Residuals of Each Observation     | $$4$$ |
 | zebra stripes        | are neat      |    $1   |
