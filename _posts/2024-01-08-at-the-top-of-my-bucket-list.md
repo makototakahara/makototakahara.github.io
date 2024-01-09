@@ -29,4 +29,4 @@ After researching the cheapest HK Express tickets and capsule hotels, I pitched 
 ![WBC 2017](/images/IMG_6648.jpeg)
 *Tokyo Dome, 2017 World Baseball Classic*
 
-Turns out, it was a great investment indeed. I had the time of my life, watching a back-and-forth game between Team Japan and Team Netherlands. I met some interesting people, explored the city, and went home with an Andrelton Simmons autograph. Most importantly, it inspired my 
+Turns out, it was a great investment indeed. I had the time of my life, watching a back-and-forth game between Team Japan and Team Netherlands. I met some fellow baseball enthusiasts from around the world, explored the city (one year later, I moved to Tokyo!), and went home with an Andrelton Simmons autograph. Most importantly, it inspired me to continue travelling for baseball
