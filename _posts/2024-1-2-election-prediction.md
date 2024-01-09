@@ -105,6 +105,21 @@ NA: For any other or unexpected values in 'education'.
 5: "Larger urban population centres (CMA/CA)"
 NA: For any other or unexpected values in 'pop_center'.
 
+**Table 1.1: Summary Statistics for Census and Survey Datasets**
+
+||Census Data|Survey Data|
+|:-:|:-:|:-:|
+|Survey Size|18210|10498|
+|Mean Age|53|53|
+|Standard Deviation of Age|17.088|16.616|
+|Percentage of Individuals Born in Canada|83.992|85.311|
+
+  **Table 1.2: Summary Statistics for Categorical Variables in Census and Survey Datasets**
+
+||Male|Female|
+|:-:|:-:|:-:|
+|Proportion of Gender|42%|58%|
+
 From the summary statistics in **Table 1**, the census data has more data points than the survey dataset after dropping for missing values. For mean and standard deviation of age, the census and survey datasets have similar numerical results. Also, percentage of married individuals and percentage of individuals born in Canada are similar between the two as well, which means CES survey dataset is representative of the population for those criteria.
 
 
