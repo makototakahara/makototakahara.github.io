@@ -111,9 +111,9 @@ NA: For any other or unexpected values in 'pop_center'.
 |:-:|:-:|:-:|
 |Survey Size|18210|10498|
 |Mean Age|53|53|
-|Standard Deviation of Age|17.088|16.616|
-|Percentage of Individuals Born in Canada|83.992|85.311|
-|Percentage of Individuals living in Larger Urban Population Centres|79.412|69.575|
+|Standard Deviation of Age|17.088%|16.616%|
+|Percentage of Individuals Born in Canada|83.992%|85.311%|
+|Percentage of Individuals living in Larger Urban Population Centres|79.412%|69.575%|
 
 From the summary statistics in **Table 1**, the census data has more data points than the survey dataset after dropping for missing values. For mean and standard deviation of age, the census and survey datasets have similar numerical results. The percentage of individuals born in Canada is similar between the two as well. These values suggest that the CES survey dataset is representative of the population.
 
