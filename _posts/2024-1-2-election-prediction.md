@@ -75,11 +75,10 @@ The drop_na() function is used to remove rows with missing values from the model
 
 The result is a cleaned and filtered dataset named model_data that includes the specified variables for further analysis. Then, for census data, we cleaned it so that it matches the inputs as the survey data.
 
-
 ### Description of the important variables
-- cps21_votechoice: Represents the respondent's vote choice.
-- age & cps21_age: Represents the age of respondents. It is rounded in the cleaning process.
-- marital & cps21_marital: Represents the marital status of respondents.
+- Vote choice (cps21_votechoice): Represents the respondent's vote choice.
+- Age (age & cps21_age): Represents the age of respondents. It is rounded in the cleaning process.
+- Marital status (marital & cps21_marital): Represents the marital status of respondents.
 1: "Married"
 2: "Living common-law"
 3: "Divorced"
@@ -87,13 +86,13 @@ The result is a cleaned and filtered dataset named model_data that includes the 
 5: "Widowed"
 6: "Single, never married"
 7: For any other or unexpected values in 'marital_status'.
-- cps21_bornin_canada: Represents the citizenship status of respondents.
+- Citizenship status (bornin_canada & cps21_bornin_canada): Represents the citizenship status of respondents.
 1: "By birth"
 2: "By naturalization"
 3: "Don't know" (If this category is present in the original data).
 - province & cps21_province: Represents the province of residence.
 Numeric codes from 1 to 13 for different provinces and territories.
-- education & cps21_education: Represents the level of education of respondents.
+- Education (education & cps21_education): Represents the level of education of respondents.
 4: "Less than high school diploma or its equivalent"
 5: "High school diploma or a high school equivalency certificate"
 7: "Trade certificate or diploma" or “College, CEGEP or other non-university certificate or diploma”
@@ -101,8 +100,11 @@ Numeric codes from 1 to 13 for different provinces and territories.
 9: "Bachelor's degree (e.g. B.A., B.Sc., LL.B.)" and 
 11: "University certificate, diploma or degree above the bachelor's level"
 NA: For any other or unexpected values in 'education'.
-- rural_urban & pes21_rural_urban: Represents the respondent's location in terms of population center and urban/rural designation, providing information about the urban or rural nature of their residence.
+- Town size (rural_urban & pes21_rural_urban): Represents the respondent's location in terms of population center and urban/rural designation, providing information about the urban or rural nature of their residence.
 3: "Rural areas and small population centres (non CMA/CA)"
 5: "Larger urban population centres (CMA/CA)"
 NA: For any other or unexpected values in 'pop_center'.
+
+From the summary statistics in **Table 1**, the census data has more data points than the survey dataset after dropping for missing values. For mean and standard deviation of age, the census and survey datasets have similar numerical results. Also, percentage of married individuals and percentage of individuals born in Canada are similar between the two as well, which means CES survey dataset is representative of the population for those criteria.
+
 
