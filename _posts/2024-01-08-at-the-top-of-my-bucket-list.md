@@ -35,3 +35,8 @@ My parents had taken me to a few MLB stadiums in my childhood - Angel Stadium, D
 
 ## Leg 1: Toronto 
 
+## Leg 2: Chicago, Milwaukee, Boston
+
+## Leg 3: Seattle, San Francisco, Oakland
+
+## Leg 4: Pittsburgh, Cleveland, Detroit
