@@ -76,7 +76,7 @@ The result is a cleaned and filtered dataset named model_data that includes the 
 ### Description of the important variables
 - cps21_votechoice: Represents the respondent's vote choice.
 - age & cps21_age: Represents the age of respondents. It is rounded in the cleaning process.
-- marital/cps21_marital: Represents the marital status of respondents.
+- marital & cps21_marital: Represents the marital status of respondents.
 1: "Married"
 2: "Living common-law"
 3: "Divorced"
