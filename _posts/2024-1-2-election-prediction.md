@@ -45,6 +45,9 @@ A new variable 'education' is created to represent the level of education. It is
 A new variable 'rural_urban' is created to represent the population center. It is recoded based on the 'pop_center' variable. Values 5 and 3 are assigned to "Larger urban population centres'' and "Rural areas and small population centres," respectively. 
 Other values are set as missing (NA).
 
+3. Variable Rounding \
+The 'age' column is rounded to the whole number for consistency with the Campaign Period Survey.
+
 4. Column Removal \
 Columns 'marital_status', 'citizenship_status', 'province', 'education', 'pop_center', and ‘age’ are removed from the dataset as they are no longer needed.
 
