@@ -46,7 +46,7 @@ A new variable 'rural_urban' is created to represent the population center. It i
 Other values are set as missing (NA).
 
 3. Variable Rounding \
-The 'age' column is rounded to the whole number for consistency with the Campaign Period Survey.
+The 'age' column is rounded to the whole number for consistency with the Campaign Period Survey. 
 
 4. Column Removal \
 Columns 'marital_status', 'citizenship_status', 'province', 'education', 'pop_center', and ‘age’ are removed from the dataset as they are no longer needed.
