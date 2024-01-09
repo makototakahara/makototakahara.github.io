@@ -14,7 +14,7 @@ What does your bucket list look like? Here's a peek at the top of mine.
 - [ ] Create a personal website
 - [ ]  ...
 
-Since baseball season is on hold, I can't work on #1. 
+Since baseball season is on hold, I can't make any progress on #1. 
 Recently, many people have been asking me if I gained weight, so it would be wise to hold off #2 for the time being.
 (Un)fortunately, I managed to check #3 off of my list.
 
@@ -22,4 +22,7 @@ So here I am, writing my first blog post for my personal website.
 While we're on the topic, I want to circle back to #1 and talk about my goal of visiting all 30 MLB stadiums.
 
 ## How my dream came to be. 
-It all started in 2016, when I came across an Instagram post about the 2017 World Baseball Classic. I wanted to live there
+It all started in 2016, when I came across an Instagram post about the 2017 World Baseball Classic. I wanted to go, but there were a few problems: I had no money or solo travelling experience.
+
+![WBC 2017](/images/IMG_6648.jpeg)
+*Tokyo Dome, 2017 World Baseball Classic*
