@@ -33,3 +33,5 @@ Turns out, it was a great investment indeed. I had the time of my life, watching
 
 My parents had taken me to a few MLB stadiums in my childhood - Angel Stadium, Dodger Stadium, Petco Park, T-Mobile Park (then known as Safeco Field), and Yankee Stadium. So upon returning to North America for college in 2021, I set a goal of visiting the rest of the stadiums before I graduate. 
 
+## Leg 1: Toronto 
+
