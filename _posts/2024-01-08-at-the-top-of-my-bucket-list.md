@@ -21,5 +21,5 @@ Recently, many people have been asking me if I gained weight, so it would be wis
 So here I am, writing my first blog post for my personal website. 
 While we're on the topic, I want to circle back to #1 and talk about my goal of visiting all 30 MLB stadiums.
 
-### How my dream came to be. 
-In 2017, I lived in Hong Kong.
+## How my dream came to be. 
+It all started in 2016, when I came across an Instagram post about the 2017 World Baseball Classic. I wanted to live there
