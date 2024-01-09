@@ -163,7 +163,9 @@ This combination of factors is justified through our analysis using the Akaike I
 ### Poststratification
 This is followed by a process called poststratification, in which we can use the fitted model to predict how certain a demographic group will vote. Then, we can weight the outcomes from each demographic group based on how common we expect these demographic groups to exist in the population, with the final sum allowing us to make predictions about the popular vote. The poststratification estimates of an sample proportion are defined by the following equations:
 
-$$\hat{y}^{PS}_{\text{liberal}} = \frac{\sum_{j=1}^{J}N_j\hat{y}_{j\text{liberal}}}{\sum_{j=1}^{J}N_j}$$
+$$
+\hat{y}^{PS}_{\text{liberal}} = \frac{\sum_{j=1}^{J}N_j\hat{y}_{j\text{liberal}}}{\sum_{j=1}^{J}N_j}
+$$
 
 $$\hat{y}^{PS}_{\text{conservative}} = \frac{\sum_{j=1}^{J}N_j\hat{y}_{j\text{conservative}}}{\sum_{j=1}^{J}N_j}$$
 
