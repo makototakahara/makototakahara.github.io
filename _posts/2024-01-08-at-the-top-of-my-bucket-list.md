@@ -10,7 +10,7 @@ What does your bucket list look like? Here's a peek at the top of mine.
 **Makoto's (Short Term) Bucket List:**
 - [ ] Visit all 30 Major League Baseball (MLB) stadiums
 - [ ] Make a mountain of nachos directly on a table, then eat it
-- [X] Eat grasshoppers with a celebrity
+- [X] Eat toasted grasshoppers with a celebrity
 - [ ] Create a personal website
 - [ ]  ...
 
