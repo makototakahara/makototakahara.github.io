@@ -22,10 +22,11 @@ So here I am, writing a first blog post for my personal website.
 While we're on the topic, I want to circle back to #1 and talk about my goal of visiting all 30 MLB stadiums.
 
 ## How my dream came to be. 
-It all started in 2016, when I came across an Instagram post about the 2017 World Baseball Classic. Japanese superstars were set to go up against their international counterparts in Tokyo, an event I could not miss as a fan of both MLB and Nippon Professional Baseball. Unfortunately, I lived in Hong Kong at the time, with no money to my name and no solo travelling experience. 
+It all started in 2016, when I came across an Instagram post about the 2017 World Baseball Classic. Japanese superstars were set to go up against their international counterparts in Tokyo, an epic crossover that I could not afford to miss as a fan of both MLB and NPB. Unfortunately, I lived in Hong Kong at the time, with no money to my name and no solo travelling experience. 
 
-I thought about ways to make the trip work. 
+After researching the cheapest HK Express tickets and capsule hotels, I pitched the trip to my father as an low-cost, high-return investment in my personal growth. To be frank, I wasn't sure what that growth was going to look like, but my enthusiasm and initiative was enough to convince my father. 
 
 ![WBC 2017](/images/IMG_6648.jpeg)
 *Tokyo Dome, 2017 World Baseball Classic*
 
+Turns out, it was a great investment indeed. I had the time of my life, watching a back-and-forth game between Team Japan and Team Netherlands. I met some interesting people, explored the city, and went home with an Andrelton Simmons autograph. Most importantly, it inspired my 
