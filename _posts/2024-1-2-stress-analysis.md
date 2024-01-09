@@ -131,13 +131,7 @@ By AIC stepwise selection, the reduced model from the partial F test, featuring 
 
 ## Discussion
 ### Conclusion 
-Initially exploring the impact of lifestyle factors and gender on the subjective stress levels of individuals aged 21 to 35, it culminated in a final model with 5 predictors and corresponding coefficients for our response variable. **Figure 4** shows the R output for this model.
-
-**Figure 4: R Summary of Final Model**
-
-![Scatterplots](/images/Screen-Shot-2024-01-08-at-18.28.13.png)
-
-The final fitted model is shown below.
+Initially exploring the impact of lifestyle factors and gender on the subjective stress levels of individuals aged 21 to 35, it culminated in a final model with 5 predictors and corresponding coefficients for our response variable. 
 
 $$
 \begin{align*}
@@ -146,6 +140,12 @@ $$
     &\quad - 0.05368 \times Meditation - 0.32961 \times Gender + \varepsilon_i
 \end{align*}
 $$
+
+**Figure 4** shows the R output for this model.
+
+**Figure 4: R Summary of Final Model**
+
+![Scatterplots](/images/Screen-Shot-2024-01-08-at-18.28.13.png)
 
 All coefficients demonstrated p-values below 0.05, signifying a significant linear relationship with the response. The model establishes a baseline subjective stress level of 3.5 for female respondents when all lifestyle predictors are at 0. A one-unit increase in Daily Shouting raises average Daily Stress by 0.14 points, while an increase in other non-categorical predictors decreases mean daily stress, assuming fixed values for other predictors. squareSleep is interpreted as a unit increase in the square of Sleep value, leading to a 0.00954 decrease in mean Daily Stress. This aligns with expectations, as sleep, meditation, and time for passions are stress reducers, consistent with literature like Jin (1992) discussing Tai Chi and Meditation's stress-reducing benefits. Men exhibit lower stress levels than females, indicated by the negative Gender coefficient. While meditation, time for passions, and sleep reduce stress, their impact is significantly smaller compared to shouting, with its coefficient nearly three times greater than the other predictors. In summary, the expected direction of coefficients aligns with literature and initial expectations, but the unexpected magnitude of effects, especially for shouting and gender, was observed. Due to the absence of literature on predictor interactions, we chose not to include interaction terms for model simplicity and to mitigate the risk of false positives.
 
