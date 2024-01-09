@@ -8,7 +8,7 @@ include_in_list: true
 What does your bucket list look like? Here's a peek at the top of mine.
 
 **Makoto's (Short Term) Bucket List:**
-- [ ] Visit all 30 MLB stadiums
+- [ ] Visit all 30 Major League Baseball (MLB) stadiums
 - [ ] Make a mountain of nachos directly on a table, then eat it
 - [X] Eat grasshoppers with a celebrity
 - [ ] Create a personal website
@@ -18,11 +18,14 @@ Since baseball season is on hold, I can't make any progress on #1.
 Recently, many people have been asking me if I gained weight, so it would be wise to hold off #2 for the time being.
 (Un)fortunately, I managed to check #3 off of my list.
 
-So here I am, writing my first blog post for my personal website. 
+So here I am, writing a first blog post for my personal website. 
 While we're on the topic, I want to circle back to #1 and talk about my goal of visiting all 30 MLB stadiums.
 
 ## How my dream came to be. 
-It all started in 2016, when I came across an Instagram post about the 2017 World Baseball Classic. I wanted to go, but there were a few problems: I had no money or solo travelling experience.
+It all started in 2016, when I came across an Instagram post about the 2017 World Baseball Classic. Japanese superstars were set to go up against their international counterparts in Tokyo, an event I could not miss as a fan of both MLB and Nippon Professional Baseball. Unfortunately, I lived in Hong Kong at the time, with no money to my name and no solo travelling experience. 
+
+I thought about ways to make the trip work. 
 
 ![WBC 2017](/images/IMG_6648.jpeg)
 *Tokyo Dome, 2017 World Baseball Classic*
+
