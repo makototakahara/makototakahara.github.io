@@ -29,4 +29,6 @@ After researching the cheapest HK Express tickets and capsule hotels, I pitched 
 ![WBC 2017](/images/IMG_6648.jpeg)
 *Tokyo Dome, 2017 World Baseball Classic*
 
-Turns out, it was a great investment indeed. I had the time of my life, watching a back-and-forth game between Team Japan and Team Netherlands. I met some fellow baseball enthusiasts from around the world, explored the city (one year later, I moved to Tokyo!), and went home with an Andrelton Simmons autograph. Most importantly, it inspired me to continue travelling for baseball
+Turns out, it was a great investment indeed. I had the time of my life, watching a back-and-forth game between Team Japan and Team Netherlands. I met some fellow baseball enthusiasts from around the world, explored the city (one year later, I moved to Tokyo!), and went home with an Andrelton Simmons autograph. Most importantly, it showed me that travelling for baseball is more than *just* watching baseball. It blended together some of my favorite aspect of life - meeting new people, watching baseball, travelling, local food & culture - into one. 
+
+My parents had taken me to a few MLB stadiums in my childhood - Angel Stadium, Dodger Stadium, Petco Park, T-Mobile Park (then Safeco Field), and Yankee Stadium. So upon returning to North America for college in 2021, I set a goal of visiting the rest of the stadiums before I graduate. 
