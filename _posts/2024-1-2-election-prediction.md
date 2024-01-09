@@ -121,8 +121,40 @@ However, the proportion of respondents from “Larger urban population centres�
 
 Next, we examine data for the categorical variables with multiple levels through bar plots. 
 
-**Figure 1** represents a bar plot comparing the distribution of respondents’ provinces in census and survey data. To streamline visualization, provinces excluding Ontario, Quebec, Alberta, and British Columbia were grouped in an “others" category. The observed higher frequency for Ontario and Quebec in the survey data, compared to the greater frequency of grouped “other” provinces in the census data, could result from grouping considerations and regional differences in survey response rates. Variations in response motivations influenced by cultural, socio-economic, or regional factors may contribute to observed discrepancies. Again, this motivates the use of post-stratification in our analysis, ensuring a more accurate representation of the overall population and addressing biases introduced during data collection
+**Figure 1** represents a bar plot comparing the distribution of respondents’ provinces in census and survey data. To streamline visualization, provinces excluding Ontario, Quebec, Alberta, and British Columbia were grouped in an “others" category. The observed higher frequency for Ontario and Quebec in the survey data, compared to the greater frequency of grouped “other” provinces in the census data, could result from grouping considerations and regional differences in survey response rates. Variations in response motivations influenced by cultural, socio-economic, or regional factors may contribute to observed discrepancies. 
 
 **Figure 1: Bar plot of Province of Residence**
 
 ![Bar plot of Province](/images/Screen-Shot-2024-01-09-at-13.34.08.png)
+
+**Figure 2** depicts a histogram comparing the distribution of respondents’ education levels between census and survey data. To enhance visual clarity, categories in both datasets were consolidated into “Less than high school,” “Less than Bachelor’s Degree,” “Bachelor’s Degree,” “More than Bachelor’s Degree,” and “Don’t know.” The figure indicates a higher prevalence of respondents with completed “Bachelor’s Degree” and “More than Bachelor’s Degree” in the survey data compared to the census data. Conversely, there is a greater representation of respondents who completed “Less than high school” and “Less than Bachelor’s Degree” in the census data relative to the survey data. This observed difference suggests that survey respondents tend to have slightly higher education levels than individuals in the census. Possible explanations for this discrepancy may stem from the likelihood that well-educated individuals approach the election survey with greater seriousness compared to those with lower levels of education. 
+
+These two visualizations motivate the use of post-stratification in our analysis, ensuring a more accurate representation of the overall population and addressing biases introduced during data collection.
+
+**Figure 2: Bar plot of Educational Attainment**
+
+![Bar plot of Education](/images/Screen-Shot-2024-01-09-at-13.37.51.png)
+
+Finally, **Figure 3** shows the raw proprtion of vote choice for each party. Given the differences between the census data and the survey data, these raw proportions may not be representative of the actual election results. 
+
+**Figure 3: Bar plot of Vote Choice**
+![Bar plot of Vote Choice](/images/Screen-Shot-2024-01-09-at-13.49.27.png)
+
+
+## Methods
+The goal of this study is to predict the party winning the popular vote in the upcoming Canadian Federal Election. Thus, our parameter of interest is the percentage of the popular vote that each party will receive in the upcoming elections, from which we can deduce the party that wins the election. We will use a multilevel regression and poststratification to estimate this parameter of interest. This approach involves partitioning the data into many demographic cells, estimating the preferred party in each cell with a statistical model, then aggregating each of the responses by weighting each cell by its proportion to the population.
+
+### Model Specifics
+Firstly, we fit a statistical model that will be used to make predictions in each demographic cell. We selected a multinomial logistic regression due to the nature of our outcome variable, party of choice, as there are multiple possible discrete outcomes. This approach enables us to effectively model the influence of various factors on the voting preferences within each demographic category.
+
+While there are a multitude of factors that may influence a demographic to vote for a certain party, we make the decision to include age, marital status, Canadian or foreign born, province of residence, education, and living in rural or urban areas as factors including this choice in our model. We fit this using the election data, as we have information about all of these factors as well as the parties that these individuals are looking to vote for. Our model is:
+
+\begin{align}
+\log\left(\frac{P(Y = j)}{P(Y = K)}\right) & = \beta_{0j} + \beta_{1j}x_{\text{age}} + \beta_{2j}x_{\text{marital status}} + \beta_{3j}x_{\text{canadian or foreign born}} \nonumber\\
+& \quad + \beta_{4j}x_{\text{province of residence}} + \beta_{5j}x_{\text{education}} + \beta_{6j}x_{\text{living in rural or urban areas}} + \epsilon_j, \nonumber
+\end{align}
+
+Where $j$ is a nominal variable arbitrarily assigned to each party and $k$ is the a baseline party, which is also arbitrarily chosen as a reference. $\beta_{0j}$ is the intercept for the jth party, so  $\beta_{01}$ would be the intercept for the party assigned the nominal value 1. Similarly, the following coefficients represent how much the presence of that factor is associated with a change in the log odds of the ratio between the party in question and the baseline party. 
+
+This combination of factors is justified through our analysis using the Akaike Information Criterion, which allows us to estimate the quality of a model compared to others. Out of all possible permutations of these factors, we obtained the best result using all of them. Thus, it is necessary for us to remove all observations where data is missing - we need all of this data for the highest quality model. 
+
