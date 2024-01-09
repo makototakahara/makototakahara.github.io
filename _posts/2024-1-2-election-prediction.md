@@ -160,3 +160,84 @@ Where $j$ is a nominal variable arbitrarily assigned to each party and $k$ is th
 
 This combination of factors is justified through our analysis using the Akaike Information Criterion, which allows us to estimate the quality of a model compared to others. Out of all possible permutations of these factors, we obtained the best result using all of them. Thus, it is necessary for us to remove all observations where data is missing - we need all of this data for the highest quality model. 
 
+### Poststratification
+This is followed by a process called poststratification, in which we can use the fitted model to predict how certain a demographic group will vote. Then, we can weight the outcomes from each demographic group based on how common we expect these demographic groups to exist in the population, with the final sum allowing us to make predictions about the popular vote. The poststratification estimates of an sample proportion are defined by the following equations:
+
+$$\hat{y}^{PS}_{liberal} = \frac{\sum_{j=1}^{J}N_j\hat{y}_{jliberal}}{\sum_{j=1}^{J}N_j}$$
+
+$$\hat{y}^{PS}_{conservative} = \frac{\sum_{j=1}^{J}N_j\hat{y}_{jconservative}}{\sum_{j=1}^{J}N_j}$$
+
+$$\hat{y}^{PS}_{ndp} = \frac{\sum_{j=1}^{J}N_j\hat{y}_{jndp}}{\sum_{j=1}^{J}N_j}$$
+
+$$\hat{y}^{PS}_{bloc} = \frac{\sum_{j=1}^{J}N_j\hat{y}_{jbloc}}{\sum_{j=1}^{J}N_j}$$
+
+$$\hat{y}^{PS}_{other} = \frac{\sum_{j=1}^{J}N_j\hat{y}_{jother}}{\sum_{j=1}^{J}N_j}$$
+
+For this step, we move from the election data to the census data. This data has information about all of the factors we included in the model (age, marital status, etc), but does not contain data about electoral preferences. After grouping individuals with the same characteristics, we use the fitted model to predict the party that this demographic group would vote for. The party with the highest log odds is noted as a party of choice for that demographic group. Finally, we aggregate these results, weighted by the size of the group with these characteristics. This allows us to predict the popular vote. 
+
+## Results 
+The results of our study are summarized in **Table 2** and **Figure 4**. 
+
+Our model predicts that the Liberal Party will win with `r round(liberal_prop, 3)*100`% of the popular vote. The Conservative Party comes second with `r round(conservative_prop, 3)*100`%, while the NDP gets `r round(ndp_prop, 3)*100`% of the vote to place third. The model predicts Bloc Québécois coming fourth with `r round(bloc_prop, 3)*100`% of the vote. Finally, the model predicts that all other parties including the Green Party will get 0% of the popular vote. 
+
+To determine if the model’s predictions are reasonable, we compare these values to the actual results of the 2021 Canadian Federal Election. In 2021, the Liberal Party had 32.6% of the vote. 
+The Conservative Party had 33.7%, while the NDP had 17.8%. Bloc Québécois had 7.6% and the Green Party had 2.3%. Other parties had a total of 5.9% (CBC/Radio Canada, n.d.).
+
+While factors such as a changing political landscape or difference in campaign dynamics prevent the 2021 election results from being a perfect reference for future outcomes, we can still gain insights from these past results. The 2021 Canadian Federal Election, broadly speaking, has a similar proportion of voters for each party. This is as expected as it has only been 2 years since the previous election, so we do not expect a drastic change in voter preference. Thus, it suggests that the results of our study are reasonable estimates for the proportion of the popular vote that each party will receive. 
+
+These results help us answer the research question of who will have the highest proportion of the popular vote win the 2025 elections. Our final prediction is that the Liberal Party will in the popular vote. 
+
+**Table 2: Predicted Popular Vote by Party**
+|Party| Popular Vote|
+|:-:|:-:|
+| Liberal Party      |37.2%|
+| Conservative Party |29.1%|
+| NDP                |19.9%|
+| Bloc Québécois     |13.8%|
+| Green              |0%|
+| Other              |0%|
+
+**Figure 4: Predicted Popular Vote by Party**
+![Bar plot of Vote Choice, Poststratified](/images/Screen-Shot-2024-01-09-at-13.58.10.png)
+
+## Conclusion
+We set out to predict the result of the 2025 Canadian Federal Election using data. Our starting idea was that the current ruling Liberal Party might win again, considering past trends. Our method employed a sophisticated multilevel regression and poststratification model called multinomial logistic regression, based on detailed demographic data from the General Social Survey and survey data from the 2021 Canadian Election Study. We tried to make sure our predictions representitive of the voting population by dealing with problems like some people not wanting to answer our questions and making sure our surveyed group looked like the whole population.
+
+Our model anticipates the Liberal Party securing victory with 37.2% of the popular vote, followed by the Conservative Party at 29.1%, and the NDP at 19.9%. The Bloc Québécois is expected to secure 13.8% of the vote, while all other parties, including the Green Party, are predicted to receive 0%.
+
+To validate the model’s predictions, we compared them with the 2021 Canadian Federal Election results (CBC/Radio Canada, n.d.). While acknowledging the potential for changes in the political landscape, the close alignment of our predictions with the 2021 outcomes suggests that our estimates for the proportion of the popular vote are reasonable. The findings suggest that the same pattern of proportional distribution seen in the last election is likely to persist, supporting the idea that the Liberal Party is expected to win again in 2025.
+
+Our model’s prediction of the Liberal Party’s success can be attributed to historical advantages associated with incumbency, such as name recognition, established infrastructure, and the ability to campaign on a record of governance (Lucas et al., 2021). The factors influencing voter preferences, including age, marital status, place of residence, education, and urban or rural living, were carefully considered in the model, providing a understanding of the electorate.
+
+One drawback of this study is that the popular vote may not be representative of the influence that a party has on the Canadian government. The discrepancy between popular vote and the proportion of seats won in the House of Commons is a noted feature of Canada’s “First Past the Post” voting system (Ansolabehere & Leblanc, 2008). This means that even though we predict the Liberal Party to have the largest support in terms of the popular vote, this model does not help predict the party with the most seats in the House of Commons and the most influence on Canadian policy. Additionally, reliance on historical patterns assumes that voter behavior is stable, which may not fully capture evolving societal trends or unforeseen events that could influence the election.
+
+For future analyses or reports, it is crucial to continuously update and refine our model as new data becomes available. Ongoing monitoring of political developments, public sentiment, and emerging issues should inform adjustments to the model parameters. Incorporating real-time data and adapting to evolving trends will enhance the predictive accuracy of our approach. Additionally, exploring the impact of external factors, such as global events or economic shifts, could further enrich the depth of our predictions. Also, we would like to perform an analysis that is more consistent with the Canadian electoral system in future studies.
+
+In conclusion, our data-driven exploration illuminates a probable outcome for the 2025 Canadian Federal Election, with the Liberal Party expected to lead the popular vote. While there’s always some uncertainty, this analysis gives useful insights for planning and decision-making in the upcoming political scene.
+
+## References
+Allaire, J.J., et al. (n.d.). Introduction to R Markdown. RStudio. [https://rmarkdown.rstudio.com/docs/](https://rmarkdown.rstudio.com/docs/). (Last Accessed: November 16, 2023)
+
+Ansolabehere, S., & Leblanc, W. (2008). A spatial model of the relationship between seats and votes. *Mathematical and Computer Modelling, 48*(9–10), 1409–1420. [https://doi.org/10.1016/j.mcm.2008.05.028](https://doi.org/10.1016/j.mcm.2008.05.028)
+
+CBC/Radio Canada. (n.d.). Federal election 2021 live results. CBCnews. [https://newsinteractives.cbc.ca/elections/federal/2021/results/](https://newsinteractives.cbc.ca/elections/federal/2021/results/)
+
+Grolemund, G. (2014, July 16). Introduction to R Markdown. RStudio. [https://rmarkdown.rstudio.com/articles_intro.html](https://rmarkdown.rstudio.com/articles_intro.html). (Last Accessed: November 16, 2023)
+
+Holt, D., & Smith, T. M. (1979). Post stratification. *Journal of the Royal Statistical Society. Series A (General), 142*(1), 33. [https://doi.org/10.2307/2344652](https://doi.org/10.2307/2344652)
+
+Lucas, J., McGregor, R. M., & Tuxhorn, K.-L. (2021). Closest to the people? Incumbency advantage and the personal vote in non-partisan elections. *Political Research Quarterly, 75*(1), 188–202. [https://doi.org/10.1177/1065912921990751](https://doi.org/10.1177/1065912921990751)
+
+Mayer, A. (2021). Reducing respondents’ perceptions of bias in survey research. *Methodological Innovations, 14*(3), 205979912110559. [https://doi.org/10.1177/20597991211055952](https://doi.org/10.1177/20597991211055952)
+
+Northcott, R. (2015). Opinion polling and election predictions. *Philosophy of Science, 82*(5), 1260–1271. [https://doi.org/10.1086/683651](https://doi.org/10.1086/683651)
+
+OpenAI. (2023). ChatGPT (September 13 version) [Large language model]. [https://chat.openai.com/chat](https://chat.openai.com/chat). (Last Accessed: November 16, 2023)
+
+RStudio Team. (2020). RStudio: Integrated Development for R. RStudio, PBC, Boston, MA. [http://www.rstudio.com/](http://www.rstudio.com/).
+
+Statistics Canada. (2015, November 27). Labour Force Survey, May 2011. [https://www150.statcan.gc.ca/n1/pub/75-001-x/2012001/tables-tableaux/11629/tbl03-eng.htm](https://www150.statcan.gc.ca/n1/pub/75-001-x/2012001/tables-tableaux/11629/tbl03-eng.htm)
+
+Statistics Canada. (n.d.). General Social Survey: Canadians at Work and Home (GSS). [https://www23.statcan.gc.ca/imdb/p2SV.pl?Function=getSurvey&SDDS=5221](https://www23.statcan.gc.ca/imdb/p2SV.pl?Function=getSurvey&SDDS=5221)
+
+Stephenson, L. B., Harell, A., Rubenson, D., & Loewen, P. J. (2022). 2021 Canadian Election Study (CES) [Data set]. Harvard Dataverse. [https://doi.org/10.7910/DVN/XBZHKC](https://doi.org/10.7910/DVN/XBZHKC)
