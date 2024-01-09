@@ -216,26 +216,28 @@ For future analyses or reports, it is crucial to continuously update and refine 
 In conclusion, our data-driven exploration illuminates a probable outcome for the 2025 Canadian Federal Election, with the Liberal Party expected to lead the popular vote. While there’s always some uncertainty, this analysis gives useful insights for planning and decision-making in the upcoming political scene.
 
 ## References
-Allaire, J.J., et al. (n.d.). Introduction to R Markdown. RStudio. [https://rmarkdown.rstudio.com/docs/](https://rmarkdown.rstudio.com/docs/). (Last Accessed: November 16, 2023)
+Certainly! Here is your reference list formatted in the requested format:
 
-Ansolabehere, S., & Leblanc, W. (2008). A spatial model of the relationship between seats and votes. *Mathematical and Computer Modelling, 48*(9–10), 1409–1420. [https://doi.org/10.1016/j.mcm.2008.05.028](https://doi.org/10.1016/j.mcm.2008.05.028)
+1. Allaire, J.J., et al. (n.d.). Introduction to R Markdown. RStudio. [Link](https://rmarkdown.rstudio.com/docs/). (Last Accessed: November 16, 2023)
 
-CBC/Radio Canada. (n.d.). Federal election 2021 live results. CBCnews. [https://newsinteractives.cbc.ca/elections/federal/2021/results/](https://newsinteractives.cbc.ca/elections/federal/2021/results/)
+2. Ansolabehere, S., & Leblanc, W. (2008). A spatial model of the relationship between seats and votes. *Mathematical and Computer Modelling, 48*(9–10), 1409–1420. [DOI](https://doi.org/10.1016/j.mcm.2008.05.028)
 
-Grolemund, G. (2014, July 16). Introduction to R Markdown. RStudio. [https://rmarkdown.rstudio.com/articles_intro.html](https://rmarkdown.rstudio.com/articles_intro.html). (Last Accessed: November 16, 2023)
+3. CBC/Radio Canada. (n.d.). Federal election 2021 live results. CBCnews. [Link](https://newsinteractives.cbc.ca/elections/federal/2021/results/)
 
-Holt, D., & Smith, T. M. (1979). Post stratification. *Journal of the Royal Statistical Society. Series A (General), 142*(1), 33. [https://doi.org/10.2307/2344652](https://doi.org/10.2307/2344652)
+4. Grolemund, G. (2014, July 16). Introduction to R Markdown. RStudio. [Link](https://rmarkdown.rstudio.com/articles_intro.html). (Last Accessed: November 16, 2023)
 
-Lucas, J., McGregor, R. M., & Tuxhorn, K.-L. (2021). Closest to the people? Incumbency advantage and the personal vote in non-partisan elections. *Political Research Quarterly, 75*(1), 188–202. [https://doi.org/10.1177/1065912921990751](https://doi.org/10.1177/1065912921990751)
+5. Holt, D., & Smith, T. M. (1979). Post stratification. *Journal of the Royal Statistical Society. Series A (General), 142*(1), 33. [DOI](https://doi.org/10.2307/2344652)
 
-Mayer, A. (2021). Reducing respondents’ perceptions of bias in survey research. *Methodological Innovations, 14*(3), 205979912110559. [https://doi.org/10.1177/20597991211055952](https://doi.org/10.1177/20597991211055952)
+6. Lucas, J., McGregor, R. M., & Tuxhorn, K.-L. (2021). Closest to the people? Incumbency advantage and the personal vote in non-partisan elections. *Political Research Quarterly, 75*(1), 188–202. [DOI](https://doi.org/10.1177/1065912921990751)
 
-Northcott, R. (2015). Opinion polling and election predictions. *Philosophy of Science, 82*(5), 1260–1271. [https://doi.org/10.1086/683651](https://doi.org/10.1086/683651)
+7. Mayer, A. (2021). Reducing respondents’ perceptions of bias in survey research. *Methodological Innovations, 14*(3), 205979912110559. [DOI](https://doi.org/10.1177/20597991211055952)
 
-RStudio Team. (2020). RStudio: Integrated Development for R. RStudio, PBC, Boston, MA. [http://www.rstudio.com/](http://www.rstudio.com/).
+8. Northcott, R. (2015). Opinion polling and election predictions. *Philosophy of Science, 82*(5), 1260–1271. [DOI](https://doi.org/10.1086/683651)
 
-Statistics Canada. (2015, November 27). Labour Force Survey, May 2011. [https://www150.statcan.gc.ca/n1/pub/75-001-x/2012001/tables-tableaux/11629/tbl03-eng.htm](https://www150.statcan.gc.ca/n1/pub/75-001-x/2012001/tables-tableaux/11629/tbl03-eng.htm)
+9. RStudio Team. (2020). RStudio: Integrated Development for R. RStudio, PBC, Boston, MA. [Link](http://www.rstudio.com/).
 
-Statistics Canada. (n.d.). General Social Survey: Canadians at Work and Home (GSS). [https://www23.statcan.gc.ca/imdb/p2SV.pl?Function=getSurvey&SDDS=5221](https://www23.statcan.gc.ca/imdb/p2SV.pl?Function=getSurvey&SDDS=5221)
+10. Statistics Canada. (2015, November 27). Labour Force Survey, May 2011. [Link](https://www150.statcan.gc.ca/n1/pub/75-001-x/2012001/tables-tableaux/11629/tbl03-eng.htm)
 
-Stephenson, L. B., Harell, A., Rubenson, D., & Loewen, P. J. (2022). 2021 Canadian Election Study (CES) [Data set]. Harvard Dataverse. [https://doi.org/10.7910/DVN/XBZHKC](https://doi.org/10.7910/DVN/XBZHKC)
+11. Statistics Canada. (n.d.). General Social Survey: Canadians at Work and Home (GSS). [Link](https://www23.statcan.gc.ca/imdb/p2SV.pl?Function=getSurvey&SDDS=5221)
+
+12. Stephenson, L. B., Harell, A., Rubenson, D., & Loewen, P. J. (2022). 2021 Canadian Election Study (CES) [Data set]. Harvard Dataverse. [DOI](https://doi.org/10.7910/DVN/XBZHKC)
