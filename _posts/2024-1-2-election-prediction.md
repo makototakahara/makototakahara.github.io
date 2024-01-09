@@ -165,11 +165,15 @@ This is followed by a process called poststratification, in which we can use the
 
 $\hat{y}^{PS}_{liberal} = \frac{\sum_{j=1}^{J}N_j\hat{y}_{jliberal}}{\sum_{j=1}^{J}N_j}$
 
+
 $\hat{y}^{PS}_{conservative} = \frac{\sum_{j=1}^{J}N_j\hat{y}_{jconservative}}{\sum_{j=1}^{J}N_j}$
+
 
 $\hat{y}^{PS}_{ndp} = \frac{\sum_{j=1}^{J}N_j\hat{y}_{jndp}}{\sum_{j=1}^{J}N_j}$
 
+
 $\hat{y}^{PS}_{bloc} = \frac{\sum_{j=1}^{J}N_j\hat{y}_{jbloc}}{\sum_{j=1}^{J}N_j}$
+
 
 $\hat{y}^{PS}_{other} = \frac{\sum_{j=1}^{J}N_j\hat{y}_{jother}}{\sum_{j=1}^{J}N_j}$
 
@@ -178,7 +182,7 @@ For this step, we move from the election data to the census data. This data has 
 ## Results 
 The results of our study are summarized in **Table 2** and **Figure 4**. 
 
-Our model predicts that the Liberal Party will win with `r round(liberal_prop, 3)*100`% of the popular vote. The Conservative Party comes second with `r round(conservative_prop, 3)*100`%, while the NDP gets `r round(ndp_prop, 3)*100`% of the vote to place third. The model predicts Bloc Québécois coming fourth with `r round(bloc_prop, 3)*100`% of the vote. Finally, the model predicts that all other parties including the Green Party will get 0% of the popular vote. 
+Our model predicts that the Liberal Party will win with 37.2% of the popular vote. The Conservative Party comes second with 29.1%, while the NDP gets 19.9% of the vote to place third. The model predicts Bloc Québécois coming fourth with 13.8% of the vote. Finally, the model predicts that all other parties including the Green Party will get 0% of the popular vote. 
 
 To determine if the model’s predictions are reasonable, we compare these values to the actual results of the 2021 Canadian Federal Election. In 2021, the Liberal Party had 32.6% of the vote. 
 The Conservative Party had 33.7%, while the NDP had 17.8%. Bloc Québécois had 7.6% and the Green Party had 2.3%. Other parties had a total of 5.9% (CBC/Radio Canada, n.d.).
@@ -216,8 +220,6 @@ For future analyses or reports, it is crucial to continuously update and refine 
 In conclusion, our data-driven exploration illuminates a probable outcome for the 2025 Canadian Federal Election, with the Liberal Party expected to lead the popular vote. While there’s always some uncertainty, this analysis gives useful insights for planning and decision-making in the upcoming political scene.
 
 ## References
-Certainly! Here is your reference list formatted in the requested format:
-
 1. Allaire, J.J., et al. (n.d.). Introduction to R Markdown. RStudio. [Link](https://rmarkdown.rstudio.com/docs/). (Last Accessed: November 16, 2023)
 
 2. Ansolabehere, S., & Leblanc, W. (2008). A spatial model of the relationship between seats and votes. *Mathematical and Computer Modelling, 48*(9–10), 1409–1420. [DOI](https://doi.org/10.1016/j.mcm.2008.05.028)
