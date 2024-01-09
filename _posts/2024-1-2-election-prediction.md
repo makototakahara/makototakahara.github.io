@@ -149,10 +149,12 @@ Firstly, we fit a statistical model that will be used to make predictions in eac
 
 While there are a multitude of factors that may influence a demographic to vote for a certain party, we make the decision to include age, marital status, Canadian or foreign born, province of residence, education, and living in rural or urban areas as factors including this choice in our model. We fit this using the election data, as we have information about all of these factors as well as the parties that these individuals are looking to vote for. Our model is:
 
+$
 \begin{align}
 \log\left(\frac{P(Y = j)}{P(Y = K)}\right) & = \beta_{0j} + \beta_{1j}x_{\text{age}} + \beta_{2j}x_{\text{marital status}} + \beta_{3j}x_{\text{canadian or foreign born}} \nonumber\\
 & \quad + \beta_{4j}x_{\text{province of residence}} + \beta_{5j}x_{\text{education}} + \beta_{6j}x_{\text{living in rural or urban areas}} + \epsilon_j, \nonumber
 \end{align}
+$
 
 Where $j$ is a nominal variable arbitrarily assigned to each party and $k$ is the a baseline party, which is also arbitrarily chosen as a reference. $\beta_{0j}$ is the intercept for the jth party, so  $\beta_{01}$ would be the intercept for the party assigned the nominal value 1. Similarly, the following coefficients represent how much the presence of that factor is associated with a change in the log odds of the ratio between the party in question and the baseline party. 
 
