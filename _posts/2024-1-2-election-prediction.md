@@ -49,7 +49,7 @@ Other values are set as missing (NA).
 Columns 'marital_status', 'citizenship_status', 'province', 'education', 'pop_center', and ‘age’ are removed from the dataset as they are no longer needed.
 
 5. Filtering \
-Rows in which the 'cps21_age' variable is less than 18 are filtered out because the model is trained on individuals aged 18 and above.
+Rows in which the 'age' variable is less than 18 are filtered out because the model is trained on individuals aged 18 and above.
 
 6. Removing Missing Values \
 Any rows with missing values (NA) are dropped from the dataset.
@@ -71,3 +71,35 @@ Similar to the census dataset, the selection is based on the study from Statisti
 The drop_na() function is used to remove rows with missing values from the model_data dataset. This step ensures that only complete cases with data in all selected columns are retained in the final dataset.
 
 The result is a cleaned and filtered dataset named model_data that includes the specified variables for further analysis. Then, for census data, we cleaned it so that it matches the inputs as the survey data.
+
+
+### Description of the important variables
+- cps21_votechoice: Represents the respondent's vote choice.
+- age & cps21_age: Represents the age of respondents. It is rounded in the cleaning process.
+- marital/cps21_marital: Represents the marital status of respondents.
+1: "Married"
+2: "Living common-law"
+3: "Divorced"
+4: "Separated"
+5: "Widowed"
+6: "Single, never married"
+7: For any other or unexpected values in 'marital_status'.
+- cps21_bornin_canada: Represents the citizenship status of respondents.
+1: "By birth"
+2: "By naturalization"
+3: "Don't know" (If this category is present in the original data).
+- province & cps21_province: Represents the province of residence.
+Numeric codes from 1 to 13 for different provinces and territories.
+- education & cps21_education: Represents the level of education of respondents.
+4: "Less than high school diploma or its equivalent"
+5: "High school diploma or a high school equivalency certificate"
+7: "Trade certificate or diploma" or “College, CEGEP or other non-university certificate or diploma”
+8: "University certificate or diploma below the bachelor's level"
+9: "Bachelor's degree (e.g. B.A., B.Sc., LL.B.)" and 
+11: "University certificate, diploma or degree above the bachelor's level"
+NA: For any other or unexpected values in 'education'.
+- rural_urban & pes21_rural_urban: Represents the respondent's location in terms of population center and urban/rural designation, providing information about the urban or rural nature of their residence.
+3: "Rural areas and small population centres (non CMA/CA)"
+5: "Larger urban population centres (CMA/CA)"
+NA: For any other or unexpected values in 'pop_center'.
+
