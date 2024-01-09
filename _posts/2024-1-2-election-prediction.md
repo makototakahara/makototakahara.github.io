@@ -232,8 +232,6 @@ Mayer, A. (2021). Reducing respondents’ perceptions of bias in survey research
 
 Northcott, R. (2015). Opinion polling and election predictions. *Philosophy of Science, 82*(5), 1260–1271. [https://doi.org/10.1086/683651](https://doi.org/10.1086/683651)
 
-OpenAI. (2023). ChatGPT (September 13 version) [Large language model]. [https://chat.openai.com/chat](https://chat.openai.com/chat). (Last Accessed: November 16, 2023)
-
 RStudio Team. (2020). RStudio: Integrated Development for R. RStudio, PBC, Boston, MA. [http://www.rstudio.com/](http://www.rstudio.com/).
 
 Statistics Canada. (2015, November 27). Labour Force Survey, May 2011. [https://www150.statcan.gc.ca/n1/pub/75-001-x/2012001/tables-tableaux/11629/tbl03-eng.htm](https://www150.statcan.gc.ca/n1/pub/75-001-x/2012001/tables-tableaux/11629/tbl03-eng.htm)
