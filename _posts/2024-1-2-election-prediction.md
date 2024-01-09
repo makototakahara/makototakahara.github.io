@@ -163,13 +163,22 @@ This combination of factors is justified through our analysis using the Akaike I
 ### Poststratification
 This is followed by a process called poststratification, in which we can use the fitted model to predict how certain a demographic group will vote. Then, we can weight the outcomes from each demographic group based on how common we expect these demographic groups to exist in the population, with the final sum allowing us to make predictions about the popular vote. The poststratification estimates of an sample proportion are defined by the following equations:
 
-<!-- Inline Math -->
-<p>$$\hat{y}^{PS}_{\text{liberal}} = \frac{\sum_{j=1}^{J}N_j\hat{y}_{j\text{liberal}}}{\sum_{j=1}^{J}N_j}$$</p>
-<p>$$\hat{y}^{PS}_{\text{conservative}} = \frac{\sum_{j=1}^{J}N_j\hat{y}_{j\text{conservative}}}{\sum_{j=1}^{J}N_j}$$</p>
-<p>$$\hat{y}^{PS}_{\text{ndp}} = \frac{\sum_{j=1}^{J}N_j\hat{y}_{j\text{ndp}}}{\sum_{j=1}^{J}N_j}$$</p>
-<p>$$\hat{y}^{PS}_{\text{bloc}} = \frac{\sum_{j=1}^{J}N_j\hat{y}_{j\text{bloc}}}{\sum_{j=1}^{J}N_j}$$</p>
-<p>$$\hat{y}^{PS}_{\text{other}} = \frac{\sum_{j=1}^{J}N_j\hat{y}_{j\text{other}}}{\sum_{j=1}^{J}N_j}$$</p>
-
+<!-- Display Math -->
+<div>
+  $$\hat{y}^{PS}_{\text{liberal}} = \frac{\sum_{j=1}^{J}N_j\hat{y}_{j\text{liberal}}}{\sum_{j=1}^{J}N_j}$$
+</div>
+<div>
+  $$\hat{y}^{PS}_{\text{conservative}} = \frac{\sum_{j=1}^{J}N_j\hat{y}_{j\text{conservative}}}{\sum_{j=1}^{J}N_j}$$
+</div>
+<div>
+  $$\hat{y}^{PS}_{\text{ndp}} = \frac{\sum_{j=1}^{J}N_j\hat{y}_{j\text{ndp}}}{\sum_{j=1}^{J}N_j}$$
+</div>
+<div>
+  $$\hat{y}^{PS}_{\text{bloc}} = \frac{\sum_{j=1}^{J}N_j\hat{y}_{j\text{bloc}}}{\sum_{j=1}^{J}N_j}$$
+</div>
+<div>
+  $$\hat{y}^{PS}_{\text{other}} = \frac{\sum_{j=1}^{J}N_j\hat{y}_{j\text{other}}}{\sum_{j=1}^{J}N_j}$$
+</div>
 
 For this step, we move from the election data to the census data. This data has information about all of the factors we included in the model (age, marital status, etc), but does not contain data about electoral preferences. After grouping individuals with the same characteristics, we use the fitted model to predict the party that this demographic group would vote for. The party with the highest log odds is noted as a party of choice for that demographic group. Finally, we aggregate these results, weighted by the size of the group with these characteristics. This allows us to predict the popular vote. 
 
