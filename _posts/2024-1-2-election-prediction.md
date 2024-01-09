@@ -115,8 +115,14 @@ NA: For any other or unexpected values in 'pop_center'.
 |Percentage of Individuals Born in Canada|83.992|85.311|
 |Percentage of Individuals living in Larger Urban Population Centres|79.412|69.575|
 
-From the summary statistics in **Table 1**, the census data has more data points than the survey dataset after dropping for missing values. For mean and standard deviation of age, the census and survey datasets have similar numerical results. The percentage of individuals born in Canada and the percentage of individuals living in larger urban population centres are similar between the two as well. These values suggest that the CES survey dataset is representative of the population.
+From the summary statistics in **Table 1**, the census data has more data points than the survey dataset after dropping for missing values. For mean and standard deviation of age, the census and survey datasets have similar numerical results. The percentage of individuals born in Canada is similar between the two as well. These values suggest that the CES survey dataset is representative of the population.
 
-We will examine data for the categorical variables with multiple levels through bar plots. 
+However, the proportion of respondents from “Larger urban population centres” is approximately 10 percentage points higher in census data than survey data. Factors such as varying survey participation rates, engagement with online surveys, and regional differences in civic involvement might contribute to this divergence in representation. Recognizing that these discrepancies may introduce bias, we use post-stratification in our analysis. 
 
+Next, we examine data for the categorical variables with multiple levels through bar plots. 
 
+**Figure 1** represents a bar plot comparing the distribution of respondents’ provinces in census and survey data. To streamline visualization, provinces excluding Ontario, Quebec, Alberta, and British Columbia were grouped in an “others" category. The observed higher frequency for Ontario and Quebec in the survey data, compared to the greater frequency of grouped “other” provinces in the census data, could result from grouping considerations and regional differences in survey response rates. Variations in response motivations influenced by cultural, socio-economic, or regional factors may contribute to observed discrepancies. Again, this motivates the use of post-stratification in our analysis, ensuring a more accurate representation of the overall population and addressing biases introduced during data collection
+
+**Figure 1: Bar plot of Province of Residence**
+
+![Bar plot of Province](/images/Screen-Shot-2024-01-09-at-13.34.08.png)
