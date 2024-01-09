@@ -6,7 +6,7 @@ include_in_list: true
 ---
 
 **Makoto's (Short Term) Bucket List:**
-- [X] Visit all 30 MLB stadiums
-- [] Create a personal website
-- [] Create a mountain of nachos directly on a table, then eat it
-- [] ...
+- [ ] Visit all 30 MLB stadiums
+- [ ] Create a personal website
+- [ ] Create a mountain of nachos directly on a table, then eat it
+- [ ] ...
