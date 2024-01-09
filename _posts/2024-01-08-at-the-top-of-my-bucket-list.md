@@ -33,12 +33,12 @@ Turns out, it was a great investment indeed. I had the time of my life, watching
 
 My parents had taken me to a few MLB stadiums in my childhood - Angel Stadium, Dodger Stadium, Petco Park, T-Mobile Park (then known as Safeco Field), and Yankee Stadium. So upon returning to North America for college in 2021, I set a goal of visiting the rest of the stadiums before graduation. And that is how an Instagram post from 2016 inspired a series of life defining trips that have been some of the most memorable days of my life. 
 
-## Leg 1: Toronto (September 2021)
+## Leg 1: Toronto 
 
-## Leg 2: Chicago, Milwaukee, Boston (May 2022)
+## Leg 2: Chicago, Milwaukee, Boston 
 
-## Leg 3: Seattle (July 2023)
+## Leg 3: Seattle 
 
-## Leg 4: San Francisco, Oakland (August 2023)
+## Leg 4: San Francisco, Oakland
 
-## Leg 5: Pittsburgh, Cleveland, Detroit (August 2023)
+## Leg 5: Pittsburgh, Cleveland, Detroit
