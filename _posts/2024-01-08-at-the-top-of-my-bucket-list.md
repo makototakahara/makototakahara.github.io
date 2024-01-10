@@ -45,13 +45,18 @@ The Rogers Centre is now my favorite place in Toronto. Having experienced everyt
 Every baseball fan wants to visit Fenway Park and Wrigley Field, the two oldest and most legendary ballparks in MLB. When I saw that the Angels were playing in Chigago and Boston on a roadtrip, I immediately knew where my next trip was going to take me.
 
 ![Guaranteed Rate Field](/images/IMG_8688.jpeg)
-*Guaranteed Rate Field, May 2022*
+*Guaranteed Rate Field, April 2022*
 
-Yep you guessed it, Guaranteed Rate Field, home of the Chicago White Sox. My plan was to watch the Angels-White Sox series, catch a game at Wrigley Field for the Crosstown Classic, then follow the Angels to Boston for a few games at Fenway Park. These trips require meticulous planning, especially if there are specific teams or games you want to catch - the point being, Fenway and Wrigley would have to wait just a tad bit longer.
+Yep you guessed it, Guaranteed Rate Field, home of the Chicago White Sox. My plan was to watch the Angels-White Sox series, catch a game at Wrigley Field for the Crosstown Classic, then follow the Angels to Boston for a few games at Fenway Park. These trips require meticulous planning, especially if there are specific teams or games you want to catch. The point being, Fenway and Wrigley would have to wait just a tad bit longer.
 
 My time in the South Side of Chicago was defined by its welcoming people. My most memorable interactions include strategizing with autograph collectors to get Shohei Ohtani's attention, being treated to drinks from opposing White Sox fans that I newly befriended, and chatting with Angels pitcher Griffin Canning about his return from injury. On another note, the Angels lost. 
 
-My next stop was not Wrigley or Fenway, but American Family Field in Milwaukee. This day-trip to Milwaukee was a spontaenous conception when I realized that it was only a few hours away by train. This was my favorite city yet. 
+My next stop was not Wrigley or Fenway, but American Family Field in Milwaukee. This day-trip to Milwaukee was a spontaneous conception when I realized that it was only a few hours’ train ride. The parking lots at American Family Field transform into a giant barbeque party before each home game. I was fortunate to have some generous locals let me join their festivities, experiencing the tradition of pregame tailgates in Milwaukee. The game was great too, and I got to watch the Cubs’ Seiya Suzuki drive in a much-needed insurance run to secure the win over the Brewers. 
+
+![American Family Field](/images/IMG_5415.jpg)
+*American Family Field, May 2022*
+
+But the highlight of this trip came after the game. You see, the Milwaukee Intermodal Station is about an hour away by foot from the stadium. With very little public transportation nearby, I hopped on a random shuttle bus hoping it would get me downtown. Turns out, the shuttle bus went to a restaurant on the other side of town, and I was now an hour and a half away from the station cutting it close to my scheduled departure time. This family who I befriended on the shuttle bus offered me a drink and even let me hitchhike with them to the station. The friendliness and groundedness of the people of Milwaukee made this the best spontaneous decision I’ve ever made.
 
 ## Leg 3: Seattle 
 
