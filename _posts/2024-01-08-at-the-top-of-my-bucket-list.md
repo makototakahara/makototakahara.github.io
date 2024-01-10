@@ -44,7 +44,7 @@ The Rogers Centre is now my favorite place in Toronto. Having experienced everyt
 ## Leg 2: Chicago, Milwaukee, Boston 
 Every baseball fan wants to visit Fenway Park and Wrigley Field, the two oldest and most legendary ballparks in MLB. When I saw that the Angels were playing in Chigago and Boston on a roadtrip, I immediately knew where my next destination was.
 
-
+![Guaranteed Rate Field](/images/IMG_8688.heic)
 *Guaranteed Rate Field, May 2022*
 
 Yep you guessed it, Guaranteed Rate Field, home of the Chicago White Sox. 
