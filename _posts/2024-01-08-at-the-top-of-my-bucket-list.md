@@ -58,6 +58,8 @@ My next stop was not Wrigley or Fenway, but American Family Field in Milwaukee. 
 
 But the highlight of this trip came after the game. You see, the Milwaukee Intermodal Station is about an hour away by foot from the stadium. With very little public transportation nearby, I hopped on a random shuttle bus hoping it would get me downtown. Turns out, the shuttle bus went to a restaurant on the other side of town, and I was now an hour and a half away from the station cutting it close to my scheduled departure time. This family who I befriended on the shuttle bus offered me a drink and even let me hitchhike with them to the station. The friendliness and groundedness of the people of Milwaukee made this the best spontaneous decision I’ve ever made.
 
+Thanks to this generous family, I made it back in Chicago to watch the Crosstown Classic the next day at Wrigley Field. 
+
 ## Leg 3: Seattle 
 
 ## Leg 4: San Francisco, Oakland
