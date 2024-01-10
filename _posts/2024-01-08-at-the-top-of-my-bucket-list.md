@@ -89,9 +89,7 @@ I wandered from my assigned seat behind home plate. With lots of space and very 
 ![Oracle Park](/images/IMG_2918.jpeg)
 *Oracle Park, August 2023*
 
-Across the Bay is Oracle Park in San Francisco. I rented a kayak to patrol McCovey Cove for batting practice "Splash Hits". No home runs came my way, but I got to meet and hear from ballhawks that are there 50+ games a year. Once in the ballpark, I met up with some new friends that I met at my hostel. 
-
-
+Across the Bay is Oracle Park in San Francisco. I rented a kayak to patrol McCovey Cove for batting practice "Splash Hits". No home runs came my way, but I got to meet and hear from ballhawks that are there 50+ games a year. Once inside the ballpark, I met up with some new friends that I met at my hostel. One of them had an extra ticket to the next day's game, so I gladly obliged. I witnessed a Logan Webb gem but narrowly missed a Patrick Bailey walk-off homer as I had to catch my flight home. 
 
 ## Leg 5: Pittsburgh, Cleveland, Detroit
 
