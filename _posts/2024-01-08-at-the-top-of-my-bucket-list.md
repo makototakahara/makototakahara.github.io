@@ -47,7 +47,7 @@ Every baseball fan wants to visit Fenway Park and Wrigley Field, the two oldest 
 ![Guaranteed Rate Field](/images/IMG_8688.jpeg)
 *Guaranteed Rate Field, May 2022*
 
-Yep you guessed it, Guaranteed Rate Field, home of the Chicago White Sox. My plan was to watch the Angels-White Sox series, catch a game at Wrigley Field upon the conclusion of the Angels-White Sox series, then follow the Angels to Boston. 
+Yep you guessed it, Guaranteed Rate Field, home of the Chicago White Sox. My plan was to watch the Angels-White Sox series, catch a game at Wrigley Field upon the conclusion of the Angels-White Sox series, then follow the Angels to Boston for a few games at Fenway Park. 
 
 ## Leg 3: Seattle 
 
