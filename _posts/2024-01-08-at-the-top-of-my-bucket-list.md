@@ -78,7 +78,8 @@ On day 2, I splurged on seats atop the Green Monster, the tallest fence in MLB. 
 
 I had the opportunity to cover the 2023 MLB All Star Week at T-Mobile Park. I had the week of a lifetime, and this probably deserves a separate entry. 
 
-## Leg 4: San Francisco, Oakland
+## Leg 4: Oakland, San Francisco
 
+The Oakland Coliseum, ___, 
 
 ## Leg 5: Pittsburgh, Cleveland, Detroit
