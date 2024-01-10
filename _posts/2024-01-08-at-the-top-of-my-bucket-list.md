@@ -39,7 +39,7 @@ My parents had taken me to a few MLB stadiums in my childhood - Angel Stadium, D
 
 My MLB stadium adventure started right in my own backyard - Toronto. As I settled into the city in September 2021, I went to the Rogers Centre with some friends from college who happen to be huge Blue Jays fans. With the roof open, the CN tower overlooks a crisp Toronto autumn night at the Rogers Centre. 
 
-The Rogers Centre is my favorite place in Toronto. Having experienced everything from bonding with friends over a beer to watching the Jays melt down in the playoffs, it feels like home to me now. One day, I want to watch a game from the Marriott embedded in the stadium - then finally, it would quite literally feel like home. 
+The Rogers Centre is now my favorite place in Toronto. Having experienced everything from bonding with friends over a beer to watching the Jays melt down in the playoffs, it feels like home to me now. One day, I want to watch a game from the Marriott embedded in the stadium - then finally, it would quite literally feel like home. 
 
 ## Leg 2: Chicago, Milwaukee, Boston 
 
