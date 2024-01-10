@@ -65,9 +65,12 @@ Thanks to this generous family, I made it back to Chicago to watch the Crosstown
 
 Wrigley Field and its surrounding Wrigleyville were nothing short of beautiful. I had heard words of caution against the windchills of Chicago in the spring, but coming from Toronto, I deeply underestimated the cold. As the freezing rain was pouring down on the Friendly Confines throughout the evening, I actually missed some of the game to warm up in the heated team store. I was amazed by the energy of the bleacher section despite the weather (some fans were shirtless). As the game ended, I followed the crowd to Addison Station and warmed myself up on the train to O'Hare. 
 
-In Boston, I splurged on seats atop the 11-meter tall Green Monster. 
+Upon my arrival in Boston, I met up with a friend and we took turns showing each other around: the city for me, baseball for my friend. The atmosphere at Fenway Park was magical and I could not believe I was there. I had read and heard all about Fenway: from the 37.2 foot tall Green Monster (which I wrote a mathematical report about in high school) to the famous Pesky Pole or the "Red Seat" marking Ted Williams' 502 foot home run. And now I was rooting on my favorite team in this historic ground. The game was a thriller, the Angels scoring 6 runs in extra innings to complete a comeback victory. I think I was able to successfully convert my friend into an Angels fan. 
 
+![Fenway Park](/images/IMG_8821.jpeg)
+*Fenway Park, May 2022*
 
+On day 2, I splurged on seats atop the Green Monster, the tallest fence in MLB. I met a fellow fan who used to visit Fenway with his late father, but was atop the Green Monster for the first time. We witnessed greatness together on that day, as Shohei Ohtani had 11K's on the mound and went 2-4 with an RBI at the plate. That marked the perfect conclusion to Leg 2 of my trip.
 
 ## Leg 3: Seattle 
 
