@@ -84,7 +84,11 @@ The Oakland Coliseum, despite its notoriety as one of the worst stadiums in base
 ![Oakland Coliseum](/images/IMG_4227.jpeg)
 *Oakland Coliseum, August 2023*
 
-I wandered from my assigned seat behind home plate. With lots of space and very few people, I could watch the game from any angle. I met Dustin Hughes, bullpen catcher for the A's, who gave me a ball and that game's lineup card. I also went to talk to the superfans in the right field bleachers, and they taught me the rythms used to cheer on each player. I also met a fan who was completing his 30 stadium journey with Oakland, and I'm hoping to be saying the same thing soon. 
+I wandered from my assigned seat behind home plate. With lots of space and very few people, I could watch the game from any angle. Dustin Hughes, bullpen catcher for the A's, kindly gave me a baseball and that game's lineup card. The superfans in the right field bleachers let me use their drums and taught me the rhythms used to cheer on each player. I also met a fan who was completing his 30 stadium journey in Oakland, a feat I aspire to achieve in the near future.
+
+Across the Bay is Oracle Park in San Francisco. 
+
+
 
 ## Leg 5: Pittsburgh, Cleveland, Detroit
 
