@@ -63,7 +63,11 @@ Thanks to this generous family, I made it back to Chicago to watch the Crosstown
 ![Wrigley Field](/images/IMG_8777.jpeg)
 *Wrigley Field, May 2022*
 
-Wrigley Field and its surrounding Wrigleyville were nothing short of beautiful. I had heard words of caution against Chicago in the spring, and I did not understand until then. As the freezing rain was pouring down on the Friendly Confines throughout the evening, I was amazed by the energy of the bleachers (some of whom were shirtless). I actually had to miss some of the game to warm up in the heated team store. I rushed to the airport to catch a flight for Boston Logan.
+Wrigley Field and its surrounding Wrigleyville were nothing short of beautiful. I had heard words of caution against the windchills of Chicago in the spring, but coming from Toronto, I deeply underestimated the cold. As the freezing rain was pouring down on the Friendly Confines throughout the evening, I actually missed some of the game to warm up in the heated team store. I was amazed by the energy of the bleacher section despite the weather (some fans were shirtless). As the game ended, I followed the crowd to Addison Station and warmed myself up on the train to O'Hare. 
+
+In Boston, I splurged on seats atop the 11-meter tall Green Monster. 
+
+
 
 ## Leg 3: Seattle 
 
