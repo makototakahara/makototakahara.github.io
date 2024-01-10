@@ -51,8 +51,7 @@ Yep you guessed it, Guaranteed Rate Field, home of the Chicago White Sox. My pla
 
 My time in the South Side of Chicago was defined by its welcoming people. My most memorable interactions include strategizing with autograph collectors to get Shohei Ohtani's attention, being treated to drinks from opposing White Sox fans that I newly befriended, and chatting with Angels pitcher Griffin Canning about his return from injury. On another note, the Angels lost. 
 
-My next stop was American Family Field in Milwaukee. Again, not Fenway or Wrigley. This trip was a spontaneous one
-
+My next stop was not Wrigley or Fenway, but American Family Field in Milwaukee. This day-trip to Milwaukee was a spontaenous conception when I realized that it was only a few hours away by train. This was my favorite city yet. 
 
 ## Leg 3: Seattle 
 
