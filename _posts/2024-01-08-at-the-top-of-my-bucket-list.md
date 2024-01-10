@@ -53,7 +53,7 @@ My time in the South Side of Chicago was defined by its welcoming people. My mos
 
 My next stop was not Wrigley or Fenway, but American Family Field in Milwaukee. This day-trip to Milwaukee was a spontaneous conception when I realized that it was only a few hours’ train ride. The parking lots at American Family Field transform into a giant barbeque party before each home game. I was fortunate to have some generous locals let me join their festivities, experiencing the tradition of pregame tailgates in Milwaukee. The game was great too, and I got to watch the Cubs’ Seiya Suzuki drive in a much-needed insurance run to secure the win over the Brewers. 
 
-![American Family Field](/images/IMG_5415.jpg)
+![American Family Field](/images/IMG_5416.jpg)
 *American Family Field, May 2022*
 
 But the highlight of this trip came after the game. You see, the Milwaukee Intermodal Station is about an hour away by foot from the stadium. With very little public transportation nearby, I hopped on a random shuttle bus hoping it would get me downtown. Turns out, the shuttle bus went to a restaurant on the other side of town, and I was now an hour and a half away from the station cutting it close to my scheduled departure time. This family who I befriended on the shuttle bus offered me a drink and even let me hitchhike with them to the station. The friendliness and groundedness of the people of Milwaukee made this the best spontaneous decision I’ve ever made.
