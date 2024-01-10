@@ -99,4 +99,4 @@ Fenway Park and Wrigley Field top the history charts, while Oracle Park and PNC 
 ![PNC Park](/images/IMG_4625.jpeg)
 *PNC Park, August 2023*
 
-A game between the Cardinals and the Pirates,
+This game between the Cardinals and the Pirates was interrupted 92-minute rain delay.
