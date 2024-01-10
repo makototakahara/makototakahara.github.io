@@ -34,6 +34,12 @@ Turns out, it was a great investment indeed. I had the time of my life, watching
 My parents had taken me to a few MLB stadiums in my childhood - Angel Stadium, Dodger Stadium, Petco Park, T-Mobile Park (then known as Safeco Field), and Yankee Stadium. So upon returning to North America for college in 2021, I set a goal of visiting the rest of the stadiums before graduation. And that is how an Instagram post from 2016 inspired a series of life defining trips that have been some of the most memorable days of my life. 
 
 ## Leg 1: Toronto 
+![Rogers Centre](/images/IMG_5415.jpg)
+*Rogers Centre, September 2021*
+
+My MLB stadium adventure started right in my own backyard - Toronto. As I settled into the city in September 2021, I went to the Rogers Centre with some friends from college who are huge Blue Jays fans. The stadium exceeded my expectations. With the roof open, the CN tower overlooks a crisp Toronto autumn night at the Rogers Centre. 
+
+The Rogers Centre is my favorite place in Toronto. From bonding with friends over a beer to watching the Jays melt down in the playoffs, it feels like home to me now. One day, I want to watch a game from the Marriott above the batter's eye - then finally, it would quite literally feel like home. 
 
 ## Leg 2: Chicago, Milwaukee, Boston 
 
