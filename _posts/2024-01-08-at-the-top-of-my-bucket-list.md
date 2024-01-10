@@ -42,6 +42,12 @@ My MLB stadium adventure started right in my own backyard - Toronto. As I settle
 The Rogers Centre is now my favorite place in Toronto. Having experienced everything from bonding with friends over a beer to watching the Jays melt down in the playoffs, it feels like home to me now. One day, I want to watch a game from the Marriott embedded in the stadium - then finally, it would quite literally feel like home. 
 
 ## Leg 2: Chicago, Milwaukee, Boston 
+Every baseball fan wants to visit Fenway Park and Wrigley Field, the two oldest and most legendary ballparks in MLB. When I saw that the Angels were playing in Chigago and Boston on a roadtrip, I immediately knew where my next destination was.
+
+
+*Guaranteed Rate Field, May 2022*
+
+Yep you guessed it, Guaranteed Rate Field, home of the Chicago White Sox. 
 
 ## Leg 3: Seattle 
 
