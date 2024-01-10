@@ -99,4 +99,12 @@ Fenway Park and Wrigley Field top the history charts, while Oracle Park and PNC 
 ![PNC Park](/images/IMG_4625.jpeg)
 *PNC Park, August 2023*
 
-This game between the Cardinals and the Pirates was interrupted 92-minute rain delay.
+This game between the Cardinals and the Pirates was interrupted 92-minute rain delay. Despite my brief 24-hour stay in Pittsburgh, I dedicated over 6 hours to PNC Park. It was well worth it though, as watching baseball with a backdrop like this will *never* get old. What matters is that I had time left over to eat a Primanti's Bros. sandwich and get on the Duquesne Incline after the game. The only downsides were Lars Nootbaar's injury sidelining him and both teams being out of playoff contention. 
+
+I took the Greyhound bus to Cleveland, which was affected by the same rainstorm. The Guardians' game against the Dodgers was suspended and play was postponed to the next day, meaning I got to watch 1.5 games upon my arrival. This also meant that I spent a whopping 8 hours at Progressive Field, despite again only spending around 24 hours in the city. Striking a balance between exploring the city and enjoying baseball is difficult! 
+
+![Progressive Field](/images/IMG_4657.jpeg)
+*Progressive Field, August 2023*
+
+Being the smallest stadium in MLB by capacity, Progressive Field provided an intimate experience. The proximity to the field of play and bullpens allowed for a close connection to the action. You could even walk down to the former bullpen area to catch a half-inning of the game from field level. 
+
