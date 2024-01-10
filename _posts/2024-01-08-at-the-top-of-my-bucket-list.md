@@ -108,3 +108,11 @@ I took the Greyhound bus to Cleveland, which was affected by the same rainstorm.
 
 Being the smallest stadium in MLB by capacity, Progressive Field provided an intimate experience. The proximity to the field of play and bullpens allowed for a close connection to the action. You could even walk down to the former bullpen area to catch a half-inning of the game from field level. 
 
+As I made my way back up to Canada, I had one more stop: Detroit. 
+
+![Comerica Park](/images/IMG_4711.jpeg)
+*Comerica Park, August 2023*
+
+Comerica Park and Detroit were underrated. It was on par with PNC Park and Oracle Park in terms of its beauty, the people were very friendly, and the game was electric. After Framber Valdez was pulled from the game after 7 no-hit innings, Parker Meadows pulled through with a walk-off home run. Most of all, I felt how important Miguel Cabrera, who started the 9th inning rally, was to this city. 
+
+## Reflecting
