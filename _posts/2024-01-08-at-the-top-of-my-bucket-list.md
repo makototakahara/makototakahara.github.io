@@ -79,8 +79,12 @@ On day 2, I splurged on seats atop the Green Monster, the tallest fence in MLB. 
 I had the opportunity to cover the 2023 MLB All Star Week at T-Mobile Park. I had the week of a lifetime, and this probably deserves a separate entry. 
 
 ## Leg 4: Oakland, San Francisco
+The Oakland Coliseum, despite its notoriety as one of the worst stadiums in baseball, was a must-visit for me. I grew up watching Angels-A's games at the Coliseum on TV, and perhaps it's the magic of nostalgia that transforms its quirks into charms. 
 
-The Oakland Coliseum, despite its notoriety as one of the worst stadiums in baseball, was a must-visit for me. I grew up watching Angels-A's games at the Coliseum on TV, so nostalgia turned its odd quirks into charms. 
+![Oakland Coliseum](/images/IMG_4227.jpeg)
+*Oakland Coliseum, August 2023*
+
+I 
 
 ## Leg 5: Pittsburgh, Cleveland, Detroit
 
