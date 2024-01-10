@@ -73,7 +73,12 @@ I arrived in Boston and met up with a friend. We showed each other around: the c
 On day 2, I splurged on seats atop the Green Monster, the tallest fence in MLB. I met a fellow fan who used to visit Fenway with his late father, though it was also his first time atop the Green Monster. We witnessed greatness that day. Shohei Ohtani had 11K’s on the mound and went 2-4 with an RBI at the plate, marking the perfect conclusion to Leg 2 of my trip.
 
 ## Leg 3: Seattle 
+![T-Mobile Park](/images/IMG_3987.jpeg)
+*T-Mobile Park, July 2023*
+
+I had the opportunity to cover the 2023 MLB All Star Week at T-Mobile Park. I had the week of a lifetime, and this probably deserves a separate entry. 
 
 ## Leg 4: San Francisco, Oakland
+
 
 ## Leg 5: Pittsburgh, Cleveland, Detroit
