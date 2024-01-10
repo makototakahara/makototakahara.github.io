@@ -94,4 +94,9 @@ Just across the Bay lies Oracle Park in San Francisco. I rented a kayak to patro
 Upon entering the ballpark, I reunited with newfound friends from my hostel. The stunning view of the bay from the upper decks somewhat alleviated the sting of shelling out $20 for a Crazy Crab Sandwich. a friendly seat-neighbor surprised me with an extra ticket to the next game. Naturally, I accepted the generous offer and reciprocated by treating him and his son to Ghirardelli sundaes. I witnessed a Logan Webb gem but narrowly missed a Patrick Bailey walk-off homer as I had to catch my flight home. 
 
 ## Leg 5: Pittsburgh, Cleveland, Detroit
+Fenway Park and Wrigley Field top the history charts, while Oracle Park and PNC Park are their aesthetic counterparts.
 
+![PNC Park](/images/IMG_4625.jpeg)
+*PNC Park, August 2023*
+
+A game between the Cardinals and the Pirates,
