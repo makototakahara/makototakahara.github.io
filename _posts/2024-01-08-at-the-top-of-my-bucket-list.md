@@ -86,7 +86,10 @@ The Oakland Coliseum, despite its notoriety as one of the worst stadiums in base
 
 I wandered from my assigned seat behind home plate. With lots of space and very few people, I could watch the game from any angle. Dustin Hughes, bullpen catcher for the A's, kindly gave me a baseball and that game's lineup card. The superfans in the right field bleachers let me use their drums and taught me the rhythms used to cheer on each player. I also met a fan who was completing his 30 stadium journey in Oakland, a feat I aspire to achieve in the near future.
 
-Across the Bay is Oracle Park in San Francisco. 
+![Oracle Park](/images/IMG_2918.jpeg)
+*Oracle Park, August 2023*
+
+Across the Bay is Oracle Park in San Francisco. I rented a kayak to patrol McCovey Cove for batting practice "Splash Hits". No home runs came my way, but I got to meet and hear from ballhawks that are there 50+ games a year. Once in the ballpark, I met up with some new friends that I met at my hostel. 
 
 
 
