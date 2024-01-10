@@ -80,6 +80,7 @@ I had the opportunity to cover the 2023 MLB All Star Week at T-Mobile Park. I ha
 
 ## Leg 4: Oakland, San Francisco
 
-The Oakland Coliseum, ___, 
+The Oakland Coliseum, despite its notoriety as one of the worst stadiums in baseball, was a must-visit for me. I grew up watching Angels-A's games at the Coliseum on TV, so nostalgia turned its odd quirks into charms. 
 
 ## Leg 5: Pittsburgh, Cleveland, Detroit
+
