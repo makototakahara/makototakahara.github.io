@@ -113,6 +113,6 @@ As I made my way back up to Canada, I had one more stop: Detroit.
 ![Comerica Park](/images/IMG_4711.jpeg)
 *Comerica Park, August 2023*
 
-Comerica Park and Detroit were underrated. It was on par with PNC Park and Oracle Park in terms of its beauty, the people were very friendly, and the game was electric. After Framber Valdez was pulled from the game after 7 no-hit innings, Parker Meadows pulled through with a walk-off home run. Most of all, I felt how important Miguel Cabrera, who started the 9th inning rally, was to this city. 
+Comerica Park and Detroit, in my opinion, were underrated. It held its own in terms of beauty, comparable to PNC Park and Oracle Park. The people were exceptionally friendly, and the game itself was electric. Following Framber Valdez's impressive 7 no-hit innings, Parker Meadows secured the win with a walk-off home run. Above all, I sensed the significance of Miguel Cabrera, who initiated the 9th inning rally, to the city.
 
 ## Reflecting
