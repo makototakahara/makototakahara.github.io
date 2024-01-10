@@ -49,7 +49,10 @@ Every baseball fan wants to visit Fenway Park and Wrigley Field, the two oldest 
 
 Yep you guessed it, Guaranteed Rate Field, home of the Chicago White Sox. My plan was to watch the Angels-White Sox series, catch a game at Wrigley Field for the Crosstown Classic, then follow the Angels to Boston for a few games at Fenway Park. These trips require meticulous planning, especially if there are specific teams or games you want to catch - the point being, Fenway and Wrigley would have to wait just a tad bit longer.
 
-My time in the South Side of Chicago was defined by its welcoming people. 
+My time in the South Side of Chicago was defined by its welcoming people. My most memorable interactions include strategizing with autograph collectors to get Shohei Ohtani's attention, being treated to drinks from opposing White Sox fans that I newly befriended, and chatting with Angels pitcher Griffin Canning about his return from injury. 
+
+My next stop was 
+
 
 ## Leg 3: Seattle 
 
