@@ -11,11 +11,11 @@ navbar_entries:
 project_entries:
   - title: Predicing Election Results
     url: election-prediction
-    desc: Multilevel Regression with Poststratification, Data Cleaning, R
+    desc: Multilevel Regression with Poststratification
 
   - title: Effect of Lifestyle Factors on Stress
     url: stress-analysis
-    desc: Linear Regression, Testing Assumptions and Correcting Violations, Model Selection, ANOVA, R
+    desc: Linear Regression and ANOVA
 
 footer_entries:
   - title: LinkedIn
