@@ -15,7 +15,7 @@ project_entries:
 
   - title: Effect of Lifestyle Factors on Stress
     url: stress-analysis
-    desc: Linear Regression and ANOVA
+    desc: Linear Regression, Model Selection, ANOVA
 
 footer_entries:
   - title: LinkedIn
