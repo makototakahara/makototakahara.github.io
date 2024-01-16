@@ -9,13 +9,15 @@ navbar_entries:
     url: projects
 
 project_entries:
-  - title: Celestial Classification
+  - title: Celestial Object Classification
     url: celestial-labelling
     desc: Decision Trees, Random Forests
+    highlight: WIP
 
   - title: Heart Disease Classification
     url: heart-disease
     desc: Logistic Regression
+    highlight: WIP
 
   - title: Predicing Election Results
     url: election-prediction
