@@ -23,7 +23,7 @@ project_entries:
     url: election-prediction
     desc: Multilevel Regression with Poststratification
 
-  - title: Effect of Lifestyle Factors on Stress
+  - title: Effect of Lifestyle on Stress
     url: stress-analysis
     desc: Linear Regression, Model Selection, ANOVA
 
