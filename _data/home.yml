@@ -15,7 +15,7 @@ project_entries:
     highlight: WIP
 
   - title: Heart Disease Classification
-    url: heart-disease
+    url: heart-disease-classification
     desc: Logistic Regression
     highlight: WIP
 
