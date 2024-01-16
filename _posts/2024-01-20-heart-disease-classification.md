@@ -2,7 +2,7 @@
 layout: post
 author: Makoto Takahara
 tags: [project]
-include_in_list: false
+include_in_list: true
 ---
 
 # Project Overview
