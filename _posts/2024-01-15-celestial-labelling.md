@@ -98,6 +98,5 @@ In the future,
 
 ## References 
 
-Trott, T. (2023). Brightness, Luminosity and Flux of Stars Explained. Perfect Astronomy. [https://perfectastronomy.com/astronomy-course/luminosity-flux-stars/]
-Sloan Digital Sky Survey. (n.d.). Data. SkyServer. [Link]
-
+1. Trott, T. (2023). Brightness, Luminosity and Flux of Stars Explained. Perfect Astronomy. [Link](https://perfectastronomy.com/astronomy-course/luminosity-flux-stars/)
+2. Sloan Digital Sky Survey. (n.d.). Data. SkyServer. [Link](https://skyserver.sdss.org/dr1/en/sdss/data/data.asp)
