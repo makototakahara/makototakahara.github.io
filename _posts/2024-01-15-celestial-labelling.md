@@ -92,6 +92,12 @@ Though our threshold of 0.975 is arbitrary, we remove `run_ID`, `field_ID`, `fib
 
 ## Conclusion
 
-We used a random forest with `redshift`, `z`, `i`, `g`, `u`, `plate`, 'r', `MJD`, `alpha`, `delta` to attain an accuracy of 0.97235535 on the testing data when classifying celestial objects as stars, galaxies, or quasars. This analysis required ___ in both statistics and astrophysics,
+We used a random forest with `redshift`, `z`, `i`, `g`, `u`, `plate`, 'r', `MJD`, `alpha`, `delta` to attain an accuracy of 0.97235535 on the testing data when classifying celestial objects as stars, galaxies, or quasars. Knowledge in both statistics and astrophysics throughout the analysis process, from adjusting variable types and identifying outliers to fitting the model and selecting factors. 
 
-https://skyserver.sdss.org/dr1/en/sdss/data/data.asp
+In the future, 
+
+## References 
+
+Trott, T. (2023). Brightness, Luminosity and Flux of Stars Explained. Perfect Astronomy. [https://perfectastronomy.com/astronomy-course/luminosity-flux-stars/]
+Sloan Digital Sky Survey. (n.d.). Data. SkyServer. [Link]
+
