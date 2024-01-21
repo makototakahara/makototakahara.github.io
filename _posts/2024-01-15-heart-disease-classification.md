@@ -65,7 +65,7 @@ We note that there are more males than females in the training dataset. There ar
 We explore the correlation between each numerical predictor variable, using a scatter matrix and correlation heatmap. 
 
 ![Heart Disease Scatter Matrix](/images/output.png)
-![Heart Disease Correlation Heatmap](/images/Screenshot-2024-01-21-at-12.38.45.png)
+![Heart Disease Correlation Heatmap](/images/output11.png)
 
 In general, we cannot observe correlation between most ofthe predictors. We may be concerned about the negative correlation between `Age` and `MaxHR`.
 
