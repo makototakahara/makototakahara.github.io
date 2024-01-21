@@ -73,15 +73,25 @@ We see that `spec_obj_ID` does not have a statistically significant relationship
 
 Firstly, we are certain that if different observations have the same `spec_obj_ID`, it will be of the same class. Therefore, before fitting any predictive model, we map `spec_obj_ID` to `class` using a dictionary. Then, we apply this mapping to the testing data to make classifications. For the observations in the testing data that have not been classified after this process, we predict its class using a decision tree. 
 
-We fit the decision tree on the training dataset with the all variables except for `rerun_ID` and `spec_obj_ID`, which we determined to be irrelevant with respect to our predictive model. A decision tree is a statistical model that splits data into subsets based on the values of input features. All data starts at the root of the tree and ends up in a leaf node holding a class label. Our fitted tree is visualized below:
+We fit the decision tree on the training dataset with the all variables except for `rerun_ID` and `spec_obj_ID`, which we determined to be irrelevant with respect to our predictive model. A decision tree is a statistical model that splits data into subsets based on the values of input features. All data starts at the root of the tree and ends up in a leaf node holding a class label. 
 
-![Decision Tree](/images/Screenshot-2024-01-21-at-00.51.46.png)
-
-We then use this model to make predictions on the testing dataset. Finally, we merge the predictions of the decision tree with the mapping prediction. The accuracy of our predictions on the testing dataset was: 0.9708679.
+We then use this model to make predictions on the testing dataset. Finally, we merge the predictions of the decision tree with the mapping prediction. The accuracy of our predictions on the testing dataset was: 0.9597834.
 
 ## Random Forest
 
-Random forests ------------------------
+A random forest is a statistical method that constructs multiple decision trees and aggregates their results. Each tree is built from a random subset of data and random subset of features, leading to a forest of diverse trees that together yield a more robust prediction.
+
+We again check if any testing data can be mapped from `spec_obj_ID` to `class` using a dictionary. Then, we fit a random forest with the same variables. The proportion of observations classified as star for the specified `redshift` range -0.0042 and 0.0042 is 99.22%, in line with our expectations from the exploratory data analysis. This intuition is support by an accuracy of 0.97133065, an improvement over the decision tree. 
+
+We perform a feature importance analysis with a table of importances and a plot of cumulative importance. This helps ensure that we do not overfit our model to the training data. 
+
+![Importance Table](/images/Screenshot-2024-01-21-at-01.33.44.png)
+![Importance Plot](/images/Screenshot-2024-01-21-at-01.33.53.png)
+
+Though our threshold of 0.975 is arbitrary, we remove `run_ID`, `field_ID`, `fiber_ID`, and `cam_col` as they are the relatively insignificant factors according to our classification. We fit another random forest. Our accuracy improves again to 0.97235535. 
+
+
+## Conclusion
 
 
 
