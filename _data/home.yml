@@ -15,7 +15,7 @@ project_entries:
 
   - title: Heart Disease Classification
     url: heart-disease-classification
-    desc: Logistic Regression
+    desc: Logistic Regression, Ensemble Models
     highlight: WIP
 
   - title: Predicing Election Results
