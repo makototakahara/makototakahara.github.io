@@ -6,7 +6,7 @@ include_in_list: false
 ---
 
 # Project Overview
-For this project, I predicted whether a patient has a heart disease or not.
+For this project, I predicted whether a presence of heart disease in patients. 
 
 I used classification using logistic regression based on information such as a patient's age, sex, cholesterol levels, and resting blood pressure. 
 
