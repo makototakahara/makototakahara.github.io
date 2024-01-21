@@ -48,7 +48,7 @@ First, we explore the distribution of numerical variables.
 
 ![Heart Disease Histograms](/images/Screenshot-2024-01-21-at-12.13.21.png)
 
-Upon visual inspection, there seem to be odd characteristics in some of the variables. For example, there is an empty bin in `Age` at 53. We also obvseve possibly unnatural peaks at 0 in Cholesterol and Oldpeak. 0 for `Oldpeak` seems to be plausible given that it is a value relative to `RestingECG`. On the other hand, we found that 0 mg/dl of cholesterol is not within a realistic range, as values below 70 mg/dl are reported as “abnormally low” even under the secondary prevention settings (https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7355098/). We suspect that there may have been measurement error or missing values.
+Upon visual inspection, there seem to be odd characteristics in some of the variables. For example, there is an empty bin in `Age` at 53. We also obvseve possibly unnatural peaks at 0 in Cholesterol and Oldpeak. 0 for `Oldpeak` seems to be plausible given that it is a value relative to `RestingECG`. On the other hand, we found that 0 mg/dl of cholesterol is not within a realistic range, as values below 70 mg/dl are reported as “abnormally low” even under the secondary prevention settings (Tada et al., 2020). We suspect that there may have been measurement error or missing values.
 
 However, given that 121 out of 643 observations in the training dataset has 0 for `Cholesterol`, it is difficult to remove these observations altogether. Furthermore, the testing dataset also contains a high proportion of observations with 0 for `Cholesterol`, so we note this abnormality as we go forward with our analysis. 
 
@@ -128,3 +128,4 @@ In future studies, it would be beneficial to incorporate additional data sources
 
 ## References
 1. Aha, D. W. (n.d.). Heart Disease Data. UCI Machine Learning Repository. [Link](https://archive.ics.uci.edu/dataset/45/heart+disease)
+2. Tada, H., Usui, S., Sakata, K., Takamura, M., & Kawashiri, M. (2020). Low-Density Lipoprotein Cholesterol Level cannot be too Low: Considerations from Clinical Trials, Human Genetics, and Biology. Journal of Atherosclerosis and Thrombosis, 27(6), 489–498. [DOI](https://doi.org/10.5551/jat.rv17040)
