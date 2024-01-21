@@ -84,3 +84,5 @@ We see that `Age` and `MaxHR` both have VIF around 13.  We have a choice of whic
 We see that all numerical variables now have VIF under 5. This significant decrease in VIF for `Age` is in line with our concern of mild correlation between `Age` and `MaxHR`.
 
 Finally, we encode for qualitative features before fitting a logistic regression model. 
+
+## Logistic Regression
