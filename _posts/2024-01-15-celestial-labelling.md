@@ -57,7 +57,7 @@ We see that the minimum of `u`, `g`, `z` is -9999.000000, which we would not exp
 
 We plot a Kernel Density Estimate Plot to summarize the distribution of the numerical variables for each class of celestial object. 
 
-![Celestial KDE Plot(/images/Screenshot-2024-01-21-at-00.37.37.png)
+![Celestial KDE Plot](/images/Screenshot-2024-01-21-at-00.37.37.png)
 
 For all of the variables except for `redshift`, we see similar but 
 
