@@ -97,7 +97,7 @@ Using the insights from our exploratory data analysis, we will fit a logistic re
 
 The practical interpretation of these coefficients is different from linear regression. Each coefficient represents the change in the log-odds of heart disease for a one-unit change in the corresponding predictor variable, holding other variables constant. For example, a unit increase in `Age` leads to a 0.028 increase in the log-odds of heart disease. The prediction accuracy of this model on the testing dataset is 0.8335081. 
 
-### Alternative Approach
+### Alternative Approach I
 
 We stated in the exploratory data analysis that the `Cholesterol` variable had many observations at 0, which is highly unlikely given the literature. However, it is difficult to remove these observations from the training dataset as we would lose a high proprtion of observations from the training dataset. Moreover, the testing dataset also contains many observations with `Cholesterol` at 0, so we cannot ignore this problem algother. Finally, we are uncertain about removing the `Cholesterol` variable given the literature about its link to heart disease. 
 
@@ -105,9 +105,26 @@ As such, we utilize two separate logistic regression models to mitigate the effe
 
 The first logistic regression model is trained with all observations in the training data, but tested with only testing data with `Cholesterol` = 0. This model does not use `Cholesterol` as a predictor. In doing so, we are able to use all observations in the training data to fit a model, mitigating the effect of removing `Cholesterol` as a predictor.
 
-The second logistic regression model is trained on observations in the training data with `Cholesterol` > 0 and also tested on observations in the testing data with `Cholesterol` > 0. This allows us to keep `Cholesterol` as a predictor in the model for observations that presumably did not have measurement error. 
+The second logistic regression model is trained on observations in the training data with `Cholesterol` > 0 and also tested on observations in the testing data with `Cholesterol` > 0. This allows us to keep `Cholesterol` as a predictor in the model for observations that presumably did not have measurement error. The coefficient of `Cholesterol` in this model was 0.001, which indicates that it is not as strongly associated with heart disease occurance as previously believed.
 
-### Alternative Approach 2
+After merging the predictions of the two models, the prediction accuracy of this model on the testing dataset is 0.83570705, a marginal increase over the previous predictions. 
 
+### Alternative Approach II
+
+Given that `Cholesterol` is not strongly associated with heart disease given the other predictors, we try removing `Cholesterol` as a predictor and fitting a logistic regression model on all observations in the training dataset. This allows us to fit a model with the largest possible number of observations that we have with our data. The prediction accuracy of this model on the testing dataset is 0.8290626.
+
+### Alternative Approach III
+
+Finally, we observe that for the observations in the training dataset with `Cholesterol` = 0 have a 0.89 proportion of having heart disease. Depending on the applications of this model, overdiagnosing heart disease is more beneficial than underdiagnosing. This is especially true when preliminarily diagnosing individuals with heart disease before extensive checks to confirm this. 
+
+Thus, we can attempt to map all observations in the testing dataset with `Cholesterol` = 0 to have heart disease, then fit a logistic regression model on the remaining observations identical to the second model in Alternative Approach I. The prediction accuracy of this model on the testing dataset is 0.84085325, the highest accuracy of all the models so far.
 
 ## Conclusion
+We conducted a thorough exploration of various combinations of observations and predictors to create a predctive model to identify the presence of heart disease. The complexity of selecting the right features and instances underscored the significance of both exploratory data analysis and domain knowledge in ensuring thoughtful data preprocessing and informed feature selection.
+
+a notable limitation surfaced due to the relatively modest sample size in our training and testing datasets. This challenge was further compounded by the presence of problematic observations, either as outliers or values inconsistent with the literature. Recognizing these constraints, it becomes evident that the success of machine learning models is intricately tied to the quality and integrity of the underlying data.
+
+In future studies, it would be beneficial to incorporate additional data sources and try different machine learning models.
+
+## References
+1. Aha, D. W. (n.d.). Heart Disease Data. UCI Machine Learning Repository. [Link](https://archive.ics.uci.edu/dataset/45/heart+disease)
