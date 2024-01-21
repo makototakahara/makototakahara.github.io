@@ -23,10 +23,10 @@ Multi-label classification tasks are often modelled using decision trees and ran
 
 The data was split into training and testing datasets with 50,000 observations each by the Hackathon facilitators. Here is a look at the variables:
 
- - id = Object Identifier, the unique value that identifies the object in the image catalog used by the CAS.
- - alpha = Right Ascension angle (at J2000 epoch).
- - delta = Declination angle (at J2000 epoch).
- - u = Ultraviolet filter in the photometric system.
+ - `id` = Object Identifier, the unique value that identifies the object in the image catalog used by the CAS.
+ - `alpha` = Right Ascension angle (at J2000 epoch).
+ - `delta` = Declination angle (at J2000 epoch).
+ - `u` = Ultraviolet filter in the photometric system.
  - g = Green filter in the photometric system.
  - r = Red filter in the photometric system.
  - i = Near Infrared filter in the photometric system.
