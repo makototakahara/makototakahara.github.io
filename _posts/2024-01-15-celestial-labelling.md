@@ -55,11 +55,19 @@ We see that the minimum of `u`, `g`, `z` is -9999.000000, which we would not exp
 
 ## Exploratory Data Analysis
 
-We plot a Kernel Density Estimate Plot to summarize the distribution of the numerical variables for each class of celestial object. 
+We plot a kernel density estimate Plot to summarize the distribution of the numerical variables for each class of celestial object. 
 
 ![Celestial KDE Plot](/images/Screenshot-2024-01-21-at-00.37.37.png)
 
-For all of the variables except for `redshift`, we see similar but 
+For all of the variables except for `redshift`, we can observe varying distributions for each class. The KDE plot for `redshift` looks pelicular, and we dig deeper to find that all 10703 observations of the star class has redshift between -0.0042 and 0.0042. We also find that within this range, 97.9% of observations are of the star class.
+
+![Celestial Star redshift](/images/Screenshot-2024-01-21-at-00.48.50.png)
+
+We also perform a Chi-squared test to determine if there is a statistically significant relationship between each categorical variable and the respone variable `class`.
+
+![Chi-squared test](/images/Screenshot-2024-01-21-at-00.51.46.png)
+
+We see that `spec_obj_ID` does not have a statistically significant relationship with the predictor variable. With this information in mind, we move onto fitting a model. 
 
 
 
