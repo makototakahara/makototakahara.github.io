@@ -58,6 +58,9 @@ Next, we explore the distribution of categorical variables.
 
 We note that there are more males than females in the training dataset. There are also more people with heart disease than not, which raises concerns about the representativeness of this dataset. 
 
-### Bivariate Analysis
+### Multivariate Analysis
 
+We explore the correlation between each numerical predictor variable, using a scatter matrix and correlation heatmap. 
+
+![Heart Disease Histograms](/images/output.png)
 
