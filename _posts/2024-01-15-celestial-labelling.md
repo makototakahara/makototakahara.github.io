@@ -25,9 +25,14 @@ The data was split into training and testing datasets with 50,000 observations e
 
 ![Celestial Variables](/images/Screenshot-2024-01-21-at-00.05.09.png)
 
-All variables are currently numeric. However, some are not appropriate for analysis as is.
+All variables are currently numeric. However, some are not appropriate for predictive modelling as it is. For example, all of the variables with names ending in ID are categorical, using numbers as labels for each category. After research into the meaning of each variable, we convert `id`, `run_ID`, `rerun_ID`,`cam_col`, `field_ID`, `spec_obj_ID`, `fiber_ID`, `plate`, `MJD` to categocial variables.
 
-For example, all of the variables with names ending in ID use numbers as 
+Next, we explore the numerical variables.
+
+![Celestial Numerical Variables](/images/Screenshot-2024-01-21-at-00.16.47.png)
+
+ We see that the minimum of u, g, z is -9999.000000, which we would not expect in this context. Flux values represent the amount of light detected from a celestial object in a specific wavelength range, and negative flux values would not have a physical interpretation in this context.
+
 
 
 
