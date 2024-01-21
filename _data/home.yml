@@ -12,7 +12,6 @@ project_entries:
   - title: Celestial Object Classification
     url: celestial-labelling
     desc: Decision Trees, Random Forests
-    highlight: WIP
 
   - title: Heart Disease Classification
     url: heart-disease-classification
