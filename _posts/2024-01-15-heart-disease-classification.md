@@ -48,9 +48,11 @@ First, we explore the distribution of numerical variables.
 
 ![Heart Disease Histograms](/images/Screenshot-2024-01-21-at-12.13.21.png)
 
-Upon visual inspection, there seem to be odd characteristics in some of the variables. For example, there is an empty bin in `Age` at 53 and possibly unnatural peaks at 0 in Cholesterol and Oldpeak. 0 for `Oldpeak` seems to be plausible given that it is a value relative to `RestingECG`. On the other hand, we found that 0 mg/dl of cholesterol is not within a realistic range, as values below 70 mg/dl are reported as “abnormally low” even under the secondary prevention settings (https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7355098/). We suspect that there may have been measurement error or missing values.
+Upon visual inspection, there seem to be odd characteristics in some of the variables. For example, there is an empty bin in `Age` at 53. We also obvseve possibly unnatural peaks at 0 in Cholesterol and Oldpeak. 0 for `Oldpeak` seems to be plausible given that it is a value relative to `RestingECG`. On the other hand, we found that 0 mg/dl of cholesterol is not within a realistic range, as values below 70 mg/dl are reported as “abnormally low” even under the secondary prevention settings (https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7355098/). We suspect that there may have been measurement error or missing values.
 
 However, given that 121 out of 643 observations in the training dataset has 0 for `Cholesterol`, it is difficult to remove these observations altogether. Furthermore, the testing dataset also contains a high proportion of observations with 0 for `Cholesterol`, so we note this abnormality as we go forward with our analysis. 
+
+We also observe some outliers from these histograms, so we will identify them using z-scores with a threshold of 3. We have 13 outliers, which we will remove from the analysis. Before removal, our training dataset had 643 observations. After the removal of 13 outliers, we now have 630 observations in our dataset. 
 
 Next, we explore the distribution of categorical variables. 
 
@@ -62,5 +64,23 @@ We note that there are more males than females in the training dataset. There ar
 
 We explore the correlation between each numerical predictor variable, using a scatter matrix and correlation heatmap. 
 
-![Heart Disease Histograms](/images/output.png)
+![Heart Disease Scatter Matrix](/images/output.png)
+![Heart Disease Correlation Heatmap](/images/Screenshot-2024-01-21-at-12.38.45.png)
 
+In general, we cannot observe correlation between most ofthe predictors. We may be concerned about the negative correlation between `Age` and `MaxHR`.
+
+Next, we check for multicollinearity using Variance Inflation Factors (VIF). We use a cutoff of 10 to determine whether the factor should be removed from our logistic regression model.
+
+![Heart Disease VIF1](/images/Screenshot-2024-01-21-at-12.46.07.png)
+
+We see that `RestingBP` has a VIF of nearly 42, so we remove it an check again.
+
+![Heart Disease VIF2](/images/Screenshot-2024-01-21-at-12.46.11.png)
+
+We see that `Age` and `MaxHR` both have VIF around 13.  We have a choice of which variable to remove, though both are associated with heart disease.  We choose to remove `MaxHR` because of its slightly higher VIF and check for multicollinearity again. 
+
+![Heart Disease VIF3](/images/Screenshot-2024-01-21-at-12.46.15.png)
+
+We see that all numerical variables now have VIF under 5. This significant decrease in VIF for `Age` is in line with our concern of mild correlation between `Age` and `MaxHR`.
+
+Finally, we encode for qualitative features before fitting a logistic regression model. 
