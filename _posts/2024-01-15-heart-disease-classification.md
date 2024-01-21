@@ -56,9 +56,11 @@ We also observe some outliers from these histograms, so we will identify them us
 
 Next, we explore the distribution of categorical variables. 
 
-![Heart Disease Histograms](/images/Screenshot-2024-01-21-at-12.27.19.png)
+![Heart Disease Histograms](/images/outputahhhh.png)
 
-We note that there are more males than females in the training dataset. There are also more people with heart disease than not, which raises concerns about the representativeness of this dataset. 
+From the plots, we can see that the patients with heart disease have differing proportions in each categorical variable. This suggests that we can include these variables to the logistic regression model.
+
+We also note that there are more males than females in the training dataset. There are also more people with heart disease than not, which raises slight concerns about the representativeness of this dataset. 
 
 ### Multivariate Analysis
 
@@ -89,4 +91,12 @@ Finally, we encode for qualitative features before fitting a logistic regression
 
 ### Naive Approach
 
-We will fit a logistic regression model using the 630 observations in the training dataset with `Age`, `Sex`, `ChestPainType`, `Cholesterol`, `FastingBS`, `RestingECG`, `ExerciseAngina`, `Oldpeak`, and `ST_Slope` as predictors. 
+Using the insights from our exploratory data analysis, we will fit a logistic regression model using the 630 observations in the training dataset with `Age`, `Sex`, `ChestPainType`, `Cholesterol`, `FastingBS`, `RestingECG`, `ExerciseAngina`, `Oldpeak`, and `ST_Slope` as predictors. We get a model with the following coefficients:
+
+![Heart Disease Logistic Regression Coefficients](/images/Screenshot-2024-01-21-at-13.18.47.png)
+
+The practical interpretation of these coefficients is different from linear regression. Each coefficient represents the change in the log-odds of heart disease for a one-unit change in the corresponding predictor variable, holding other variables constant. For example, a unit increase in `Age` leads to a 0.028 increase in the log-odds of heart disease. The prediction accuracy of this model on the testing dataset is 0.8335081. 
+
+### Alternative Approach
+
+We stated in the exploratory data analysis that the `Cholesterol` variable had many observations at 0, which is highly unlikely given the literature. However, given the 
