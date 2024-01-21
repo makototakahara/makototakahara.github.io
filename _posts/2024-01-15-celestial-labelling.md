@@ -27,20 +27,20 @@ The data was split into training and testing datasets with 50,000 observations e
  - `alpha` = Right Ascension angle (at J2000 epoch).
  - `delta` = Declination angle (at J2000 epoch).
  - `u` = Ultraviolet filter in the photometric system.
- - g = Green filter in the photometric system.
- - r = Red filter in the photometric system.
- - i = Near Infrared filter in the photometric system.
- - z = Infrared filter in the photometric system.
- - run_ID = Run Number used to identify the specific scan.
- - rerun_ID = Rerun Number to specify how the image was processed.
- - cam_col = Camera column to identify the scanline within the run.
- - field_ID = Field number to identify each field.
- - spec_obj_ID = Unique ID used for optical spectroscopic objects (this means that 2 different observations with the same spec_obj_ID must share the output class).
- - redshift = redshift value based on the increase in wavelength.
- - plate = plate ID, identifies each plate in SDSS.
- - MJD = Modified Julian Date, used to indicate when a given piece of SDSS data was taken.
- - fiber_ID = fiber ID that identifies the fiber that pointed the light at the focal plane in each observation.
- - class = object class [GALAXY: galaxy, STAR: star or QSO: quasar object].
+ - `g` = Green filter in the photometric system.
+ - `r` = Red filter in the photometric system.
+ - `i` = Near Infrared filter in the photometric system.
+ - `z` = Infrared filter in the photometric system.
+ - `run_ID` = Run Number used to identify the specific scan.
+ - `rerun_ID` = Rerun Number to specify how the image was processed.
+ - `cam_col` = Camera column to identify the scanline within the run.
+ - `field_ID` = Field number to identify each field.
+ - `spec_obj_ID` = Unique ID used for optical spectroscopic objects (this means that 2 different observations with the same spec_obj_ID must share the output class).
+ - `redshift` = redshift value based on the increase in wavelength.
+ - `plate` = plate ID, identifies each plate in SDSS.
+ - `MJD` = Modified Julian Date, used to indicate when a given piece of SDSS data was taken.
+ - `fiber_ID` = fiber ID that identifies the fiber that pointed the light at the focal plane in each observation.
+ - `class` = object class [GALAXY: galaxy, STAR: star or QSO: quasar object].
 
 ![Celestial Variables](/images/Screenshot-2024-01-21-at-00.05.09.png)
 
