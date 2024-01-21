@@ -89,13 +89,4 @@ Finally, we encode for qualitative features before fitting a logistic regression
 
 ### Naive Approach
 
-We will fit a logistic regression model using the 630 observations in the training dataset with `Age`, `Sex`
- - `ChestPainType`: chest pain type [TA: Typical Angina, ATA: Atypical Angina, NAP: Non-Anginal Pain, ASY: Asymptomatic]
- - `RestingBP`: resting blood pressure [mm Hg]
- - `Cholesterol`: serum cholesterol [mm/dl]
- - `FastingBS`: fasting blood sugar [1: if FastingBS > 120 mg/dl, 0: otherwise]
- - `RestingECG`: resting electrocardiogram results [Normal: Normal, ST: having ST-T wave abnormality (T wave inversions and/or ST elevation or depression of > 0.05 mV), LVH: showing probable or definite left ventricular hypertrophy by Estes' criteria]
- - `MaxHR`: maximum heart rate achieved [Numeric value between 60 and 202]
- - `ExerciseAngina`: exercise-induced angina [Y: Yes, N: No]
- - `Oldpeak`: oldpeak = ST [Numeric value measured in depression]
- - `ST_Slope`
+We will fit a logistic regression model using the 630 observations in the training dataset with `Age`, `Sex`, `ChestPainType`, `Cholesterol`, `FastingBS`, `RestingECG`, `ExerciseAngina`, `Oldpeak`, and `ST_Slope` as predictors. 
