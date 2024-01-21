@@ -73,11 +73,15 @@ We see that `spec_obj_ID` does not have a statistically significant relationship
 
 Firstly, we are certain that if different observations have the same `spec_obj_ID`, it will be of the same class. Therefore, before fitting any predictive model, we map `spec_obj_ID` to `class` using a dictionary. Then, we apply this mapping to the testing data to make classifications. For the observations in the testing data that have not been classified after this process, we predict its class using a decision tree. 
 
-We fit the decision tree on the training dataset with the all variables except for `rerun_ID` and `spec_obj_ID`, which we determined to be irrelevant with respect to our predictive model. We then use this model to make predictions on the testing dataset. Finally, we merge the predictions of the decision tree with the mapping prediction. The accuracy of our predictions on the testing dataset was: 0.9708679.
+We fit the decision tree on the training dataset with the all variables except for `rerun_ID` and `spec_obj_ID`, which we determined to be irrelevant with respect to our predictive model. A decision tree is a statistical model that splits data into subsets based on the values of input features. All data starts at the root of the tree and ends up in a leaf node holding a class label. Our fitted tree is visualized below:
+
+![Decision Tree](/images/Screenshot-2024-01-21-at-00.51.46.png)
+
+We then use this model to make predictions on the testing dataset. Finally, we merge the predictions of the decision tree with the mapping prediction. The accuracy of our predictions on the testing dataset was: 0.9708679.
 
 ## Random Forest
 
-A 
+Random forests ------------------------
 
 
 
