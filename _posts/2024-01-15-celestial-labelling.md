@@ -50,7 +50,7 @@ Next, we explore the numerical variables.
 
 ![Celestial Numerical Variables](/images/Screenshot-2024-01-21-at-00.16.47.png)
 
-We see that the minimum of `u`, `g`, `z` is -9999.000000, which we would not expect in this context. Flux values represent the amount of light detected from a celestial object in a specific wavelength range, and negative flux values would not have a physical interpretation in this context (CITE). We find that it is the same observation with these values, so we remove this observation from the training dataset. 
+We see that the minimum of `u`, `g`, `z` is -9999.000000, which we would not expect in this context. Flux values represent the amount of light detected from a celestial object in a specific wavelength range, and negative flux values would not have a physical interpretation in this context (CITE). We find that it is the same observation with these values, so we remove this observation from the training dataset. Also, `rerun_ID` is the same for all the observations. Thus, we disregard this variable from here onwards. 
 
 
 ## Exploratory Data Analysis
@@ -67,7 +67,18 @@ We also perform a Chi-squared test to determine if there is a statistically sign
 
 ![Chi-squared test](/images/Screenshot-2024-01-21-at-00.51.46.png)
 
-We see that `spec_obj_ID` does not have a statistically significant relationship with the predictor variable. With this information in mind, we move onto fitting a model. 
+We see that `spec_obj_ID` does not have a statistically significant relationship with the predictor variable. With this information in mind, we move onto fitting some predictive models. 
+
+## Decision Tree
+
+Firstly, we are certain that if different observations have the same `spec_obj_ID`, it will be of the same class. Therefore, before fitting any predictive model, we map `spec_obj_ID` to `class` using a dictionary. Then, we apply this mapping to the testing data to make classifications. For the observations in the testing data that have not been classified after this process, we predict its class using a decision tree. 
+
+We fit the decision tree on the training dataset with the all variables except for `rerun_ID` and `spec_obj_ID`, which we determined to be irrelevant with respect to our predictive model. We then use this model to make predictions on the testing dataset. Finally, we merge the predictions of the decision tree with the mapping prediction. The accuracy of our predictions on the testing dataset was: 0.9708679.
+
+## Random Forest
+
+A 
+
 
 
 
