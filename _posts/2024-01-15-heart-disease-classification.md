@@ -39,4 +39,25 @@ The data was split into training and testing datasets with 643 and 275 observati
 
 ![Heart Disease Variables](/images/Screenshot-2024-01-21-at-12.07.17.png)
 
-F
+From this, we observe that there is a undocumented `Unnamed: 0` variable that contains 0 in all observations. We disregard this variable in our analysis.
+
+## Exploratory Data Analysis
+### Univariate Analysis
+
+First, we explore the distribution of numerical variables. 
+
+![Heart Disease Histograms](/images/Screenshot-2024-01-21-at-12.13.21.png)
+
+Upon visual inspection, there seem to be odd characteristics in some of the variables. For example, there is an empty bin in `Age` at 53 and possibly unnatural peaks at 0 in Cholesterol and Oldpeak. 0 for `Oldpeak` seems to be plausible given that it is a value relative to `RestingECG`. On the other hand, we found that 0 mg/dl of cholesterol is not within a realistic range, as values below 70 mg/dl are reported as “abnormally low” even under the secondary prevention settings (https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7355098/). We suspect that there may have been measurement error or missing values.
+
+However, given that 121 out of 643 observations in the training dataset has 0 for `Cholesterol`, it is difficult to remove these observations altogether. Furthermore, the testing dataset also contains a high proportion of observations with 0 for `Cholesterol`, so we note this abnormality as we go forward with our analysis. 
+
+Next, we explore the distribution of categorical variables. 
+
+![Heart Disease Histograms](/images/Screenshot-2024-01-21-at-12.27.19.png)
+
+We note that there are more males than females in the training dataset. There are also more people with heart disease than not, which raises concerns about the representativeness of this dataset. 
+
+### Bivariate Analysis
+
+
