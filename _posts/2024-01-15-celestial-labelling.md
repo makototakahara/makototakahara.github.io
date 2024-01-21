@@ -15,8 +15,9 @@ I used machine learning techniques such as decision trees and random forests to 
 # Project Content
 
 ## Introduction
-This project aims to develop a predictive model for the classification of celestial objects, a critical aspect of astronomical research. Leveraging data from the Sloan Digital Sky Survey, which includes measurements such as telescope angles, photometric filters, and redshift values, we aim to predict whether a celestial object is a star, galaxy, or quasar. Processing this information to make timely decisions is important because asstronomers need to configure their telescopes accordingly before the target objects become unobservable (SDSS). We will explore decision trees and random forests to make predictions. 
+This project aims to develop a predictive model for the classification of celestial objects, a critical aspect of astronomical research. Leveraging data from the Sloan Digital Sky Survey, which includes measurements such as telescope angles, photometric filters, and redshift values, we aim to predict whether a celestial object is a star, galaxy, or quasar. Processing this information to make timely decisions is important because asstronomers need to configure their telescopes accordingly before the target objects become unobservable (SDSS). 
 
+Multi-label classification tasks are often modelled using decision trees and random forests. Decision trees are statistical models that split data into subsets based on the values of input features, with all data starting at the root of the tree and ending up in a leaf node holding a class label. Random forests are ensemble models containing multiple decision trees that are unique because both observations *and* factors have been randomly sampled from the full tree. We tailor our methods and models based on our exploratory data analysis to create a predictive model for classifying these celestial objects.
 
 ## Data
 
