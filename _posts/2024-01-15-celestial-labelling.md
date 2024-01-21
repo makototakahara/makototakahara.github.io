@@ -50,9 +50,12 @@ Next, we explore the numerical variables.
 
 ![Celestial Numerical Variables](/images/Screenshot-2024-01-21-at-00.16.47.png)
 
-We see that the minimum of u, g, z is -9999.000000, which we would not expect in this context. Flux values represent the amount of light detected from a celestial object in a specific wavelength range, and negative flux values would not have a physical interpretation in this context (CITE). We find that it is the same observation with these values, so we remove this observation from the training dataset. 
+We see that the minimum of `u`, `g`, `z` is -9999.000000, which we would not expect in this context. Flux values represent the amount of light detected from a celestial object in a specific wavelength range, and negative flux values would not have a physical interpretation in this context (CITE). We find that it is the same observation with these values, so we remove this observation from the training dataset. 
 
 
+## Exploratory Data Analysis
+
+Hello
 
 
 
