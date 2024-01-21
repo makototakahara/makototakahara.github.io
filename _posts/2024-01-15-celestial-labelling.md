@@ -8,8 +8,7 @@ include_in_list: false
 # Project Overview
 For this project, I classied celestial objects into galaxies, stars, and quasars. This was my submission to DS3 Datathon. 
 
-I used machine learning techniques such as decision trees and random forests to make predictions about the class of celestial object given information about telescope angles, various photometric filters, redshift values, and more. A significant challenge in project was my lack of domain knowledge and I learned on the fly about new subjects to create models that are appropriate in both statistics and the domain. 
-
+I used machine learning techniques such as decision trees and random forests to make predictions about the class of celestial object given information about telescope angles, various photometric filters, redshift values, and more. This analysis required a blend of knowledge in both statistics and astrophysics, reiterating the importance of domain knowledge in data science.
 
 ---
 
@@ -81,19 +80,18 @@ We then use this model to make predictions on the testing dataset. Finally, we m
 
 A random forest is a statistical method that constructs multiple decision trees and aggregates their results. Each tree is built from a random subset of data and random subset of features, leading to a forest of diverse trees that together yield a more robust prediction.
 
-We again check if any testing data can be mapped from `spec_obj_ID` to `class` using a dictionary. Then, we fit a random forest with the same variables. The proportion of observations classified as star for the specified `redshift` range -0.0042 and 0.0042 is 99.22%, in line with our expectations from the exploratory data analysis. This intuition is support by an accuracy of 0.97133065, an improvement over the decision tree. 
+We again check if any testing data can be mapped from `spec_obj_ID` to `class` using a dictionary. Then, we fit a random forest with the same variables. The proportion of observations classified as star for the specified `redshift` range -0.0042 and 0.0042 is 99.22%, in line with our expectations from the exploratory data analysis. This intuition is support by an accuracy of 0.97133065 on the testing data, an improvement over the decision tree. 
 
 We perform a feature importance analysis with a table of importances and a plot of cumulative importance. This helps ensure that we do not overfit our model to the training data. 
 
 ![Importance Table](/images/Screenshot-2024-01-21-at-01.33.44.png)
 ![Importance Plot](/images/Screenshot-2024-01-21-at-01.33.53.png)
 
-Though our threshold of 0.975 is arbitrary, we remove `run_ID`, `field_ID`, `fiber_ID`, and `cam_col` as they are the relatively insignificant factors according to our classification. We fit another random forest. Our accuracy improves again to 0.97235535. 
+Though our threshold of 0.975 is arbitrary, we remove `run_ID`, `field_ID`, `fiber_ID`, and `cam_col` as they are the relatively insignificant factors according to our classification. We fit another random forest. Our accuracy on the testing data improves again to 0.97235535. 
 
 
 ## Conclusion
 
-
-
+We used a random forest with `redshift`, `z`, `i`, `g`, `u`, `plate`, 'r', `MJD`, `alpha`, `delta` to attain an accuracy of 0.97235535 on the testing data when classifying celestial objects as stars, galaxies, or quasars. This analysis required ___ in both statistics and astrophysics,
 
 https://skyserver.sdss.org/dr1/en/sdss/data/data.asp
