@@ -94,7 +94,9 @@ Though our threshold of 0.975 is arbitrary, we remove `run_ID`, `field_ID`, `fib
 
 We used a random forest with `redshift`, `z`, `i`, `g`, `u`, `plate`, 'r', `MJD`, `alpha`, `delta` to attain an accuracy of 0.97235535 on the testing data when classifying celestial objects as stars, galaxies, or quasars. Knowledge in both statistics and astrophysics throughout the analysis process, from adjusting variable types and identifying outliers to fitting the model and selecting factors. 
 
-In the future, 
+Some limitations of this classification include potential overfitting, inability to handle new types of celestial objects not present in the training data, and the reliance on the quality and completeness of the Sloan Digital Sky Survey data.
+
+In future studies, it would be beneficial to incorporate additional data sources, try different machine learning models, and apply techniques to handle class imbalance.
 
 ## References 
 
