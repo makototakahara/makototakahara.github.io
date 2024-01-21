@@ -99,4 +99,15 @@ The practical interpretation of these coefficients is different from linear regr
 
 ### Alternative Approach
 
-We stated in the exploratory data analysis that the `Cholesterol` variable had many observations at 0, which is highly unlikely given the literature. However, given the 
+We stated in the exploratory data analysis that the `Cholesterol` variable had many observations at 0, which is highly unlikely given the literature. However, it is difficult to remove these observations from the training dataset as we would lose a high proprtion of observations from the training dataset. Moreover, the testing dataset also contains many observations with `Cholesterol` at 0, so we cannot ignore this problem algother. Finally, we are uncertain about removing the `Cholesterol` variable given the literature about its link to heart disease. 
+
+As such, we utilize two separate logistic regression models to mitigate the effects of these observations. We separate the training and testing data into two groups each: `Cholesterol` = 0 or `Cholesterol` > 0. 
+
+The first logistic regression model is trained with all observations in the training data, but tested with only testing data with `Cholesterol` = 0. This model does not use `Cholesterol` as a predictor. In doing so, we are able to use all observations in the training data to fit a model, mitigating the effect of removing `Cholesterol` as a predictor.
+
+The second logistic regression model is trained on observations in the training data with `Cholesterol` > 0 and also tested on observations in the testing data with `Cholesterol` > 0. This allows us to keep `Cholesterol` as a predictor in the model for observations that presumably did not have measurement error. 
+
+### Alternative Approach 2
+
+
+## Conclusion
